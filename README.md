@@ -14,7 +14,7 @@ This is an Open Street Map app for KaiOS devices. It's a fork of osm-map with th
 + **Cursor** Moving the map
 + **Enter** Open location search
 
-###Screenshots
+### Screenshots
 ![topo1](/topo1.png)
 ![topo2](/topo2.png)
 
