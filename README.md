@@ -1,6 +1,6 @@
 ![logo](application/icons/icon-112-112.png) 
 
-This is an Open Street Map app for KaiOS devices. It's a fork of osm-map with the aim of better usability.
+This is an Open Street Map app for KaiOS devices. It's a fork of osm-map with the aim of better usability and small filesize (only 118 KB).
 
 ### Features
 + Map
