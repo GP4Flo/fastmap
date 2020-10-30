@@ -54,6 +54,39 @@ div#toast {
 }
 
 
+/*/////////////////
+USER INPUT////////////////*/
+
+div#user-input {
+    position: fixed;
+    height: 60px;
+    bottom: -80px;
+    background: gray;
+    color: white;
+    z-index: 2000;
+    padding: 5px;
+}
+
+div#user-input input {
+    margin: 5px 0 5px 0;
+    height: 20px;
+    width: 90%;
+    font-size: 1.1rem;
+}
+
+div#user-input div#button-bar-save {
+    background: black;
+    height: 25px;
+}
+
+div#user-input div#button-bar-save div {
+    background: black;
+    color: white;
+    height: 20px;
+    padding: 2px;
+}
+
+
 /*///////////////////////////
 ///MAP////////////////*/
 
@@ -67,7 +100,7 @@ div#map-container {
  bottom bar
  */
 
-div#bottom-bar {
+ div#bottom-bar {
     position: fixed;
     bottom: 0px;
     left: 0px;
@@ -180,17 +213,4 @@ div#output {
     color: white;
     z-index: 1000;
     display: none;
-}
-
-/* KaiOS portrait devices (240x320) */
-
-@media only screen and (orientation: portrait) {
-    /* styles */
-}
-
-
-/* KaiOS landscape devices (320x240) */
-
-@media screen and (orientation: landscape) {
-    /* styles */
 }

@@ -1,7 +1,8 @@
 	{
-	    "version": "1.0",
+	    "version": "1.0.0",
 	    "name": "Topo Map",
-	    "description": "A topographical map based on OpenStreetMap.",
+		"subtitle": "Free topographical map",
+	    "description": "Topo Map is a free topographical map based on OpenStreetMap covering the whole world. You can use it for hiking, biking or whatever you want to.",
 	    "launch_path": "/index.html",
 	    "type": "web",
 	    "fullscreen": "true",
@@ -18,10 +19,13 @@
 	    "permissions": {
 	        "geolocation": {
 	            "description": "Required to show your location on the map."
-	        },
-			"mobiledata":{},
-			"wifidata":{}
-			
-	    }
-
+	        }
+	    },
+		"locales":{
+			"en-US":{
+				"name":"Topo Map",
+				"description":"A topographical map based on OpenStreetMap."
+			}
+		},
+		"default_locale": "en-US"
 	}
