@@ -39,22 +39,6 @@ let file_path;
 let storage_name;
 
 $(document).ready(function() {
-
-    document.addEventListener("DOMContentLoaded", () => {
-        // request an ad when the DOM is loaded
-        getKaiAd({
-        publisher: '6c03d2e1-0833-4731-aac0-801acfc4eb6e',
-        app: 'Topo Map',
-        test: 0,
-        onready: ad => {
-                ad.call('display')
-                ad.on('display', () => document.getElementsByClassName( 'leaflet-control-attribution' )[0].style.display = 'none' )
-                ad.on('display', () => document.getElementsByClassName( 'leaflet-control-scale' )[0].style.display = 'none' )
-                ad.on('close', () => document.getElementsByClassName( 'leaflet-control-attribution' )[0].style.display = 'block' )
-                ad.on('close', () => document.getElementsByClassName( 'leaflet-control-scale' )[0].style.display = 'block' )
-        }  
-        })
-        });
     
     //welcome message
     $('div#message div').text("Welcome");
