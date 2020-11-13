@@ -1,12 +1,13 @@
 	{
-	    "version": "1.0.0",
+	    "version": "1.0.4",
 	    "name": "Topo Map",
-		"subtitle": "Free topographical map",
-	    "description": "Topo Map is a free topographical map based on OpenStreetMap covering the whole world. You can use it for hiking, biking or whatever you want to.",
+		"subtitle": "Topographic map",
+	    "description": "Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). This app is a good companion for your outdoor activities like hiking, cycling, mountain biking, horseback riding, etc.",
 	    "launch_path": "/index.html",
 	    "type": "web",
 	    "fullscreen": "true",
 		"categories": "utilities",
+		"orientation": [ "portrait-primary" ],
 	    "icons": {
 	        "56": "/icons/icon-56-56.png",
 	        "112": "/icons/icon-112-112.png"
@@ -19,12 +20,40 @@
 	    "permissions": {
 	        "geolocation": {
 	            "description": "Required to show your location on the map."
-	        }
+				},
+			"mobiledata":{},
+			"wifidata":{}
 	    },
 		"locales":{
 			"en-US":{
 				"name":"Topo Map",
-				"description":"A topographical map based on OpenStreetMap."
+				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). This app is a good companion for your outdoor activities like hiking, cycling, mountain biking, horseback riding, etc.",
+				"subtitle": "Topographic map (OpenStreetMap)"
+			},
+			"de-DE":{
+				"name":"Topo Karte",
+				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Die Karte ist Dein idealer Begleiter für Deine Outdoor Aktivitäten wie Wandern, Joggen, Radfahren, Mountainbike, Reiten, Kanu, usw.",
+				"subtitle": "Topographische Karte (OpenStreetMap)"
+			},
+			"es-US":{
+				"name":"Mapa Topo",
+				"description":"Mapa Topo es un mapa topográfico gratuito basado en OpenStreetMap (osm). Use el D-Pad para navegar por el mapa, las teclas izquierda y derecha para alejar y acercar. Presione el botón central para abrir la búsqueda.",
+				"subtitle": "Mapa topográfico"
+			},
+			"es-ES":{
+				"name":"Mapa Topo",
+				"description":"Mapa Topo es un mapa topográfico gratuito basado en OpenStreetMap (osm). Use el D-Pad para navegar por el mapa, las teclas izquierda y derecha para alejar y acercar. Presione el botón central para abrir la búsqueda.",
+				"subtitle": "Mapa topográfico"
+			},
+			"fr-FR":{
+				"name":"Carte Topo",
+				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Cette application est un bon compagnon pour vos activités de plein air comme la randonnée, le VTT, etc.",
+				"subtitle": "Carte topographique"
+			},
+			"fr-CA":{
+				"name":"Carte Topo",
+				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Cette application est un bon compagnon pour vos activités de plein air comme la randonnée, le VTT, etc.",
+				"subtitle": "Carte topographique"
 			}
 		},
 		"default_locale": "en-US"

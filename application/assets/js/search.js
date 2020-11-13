@@ -3,11 +3,11 @@
 $(document).ready(function() {
     var ac_selected_station = $('#search').autocomplete({
         serviceUrl: "https://nominatim.openstreetmap.org/search?format=json&limit=12",
-        minChars: 3,
+        minChars: 2,
         showNoSuggestionNotice: true,
         paramName: 'q',
         lookupLimit: 12,
-        deferRequestBy: 500,
+        deferRequestBy: 1500,
         transformResult: function(response) {
             console.log(response);
             var obj = $.parseJSON(response);

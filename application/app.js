@@ -4,44 +4,41 @@ let step = 0.001;
 let current_lng = 0;
 let current_lat = 0;
 let current_alt;
-let accuracy = 0;
-let altitude;
 let current_heading;
 
 let zoom_level;
-let current_zoom_level;
-let new_lat = 0;
-let new_lng = 0;
-let curPos = 0;
 let myMarker = "";
-let i = 0;
 let windowOpen = "map";
-let message_body = "";
-let openweather_api = "";
-let tabIndex = 0;
-let debug = false;
 
 let tilesLayer;
-let tileLayer;
-let myLayer;
 let tilesUrl;
-let state_geoloc = "not-activ";
-let savesearch = false;
-
-let search_current_lng;
-let search_current_lat;
 
 let map;
-let open_url = false;
 let marker_latlng = false;
 
-let file_path;
-let storage_name;
-
 $(document).ready(function() {
-    
+
+//KaiAds
+getKaiAd({
+    publisher: '6c03d2e1-0833-4731-aac0-801acfc4eb6e',
+    app: 'Topo Map',
+    slot: 'About',
+    test: 0,
+    h: 223,
+    w: 238,
+    container: document.getElementById('ad-container'),
+    onerror: err => console.error('Custom catch:', err),
+    onready: ad => {
+        ad.call('display', {
+            tabindex: 0,
+            navClass: 'items',
+            display: 'block',
+        })
+    }
+});
+
     //welcome message
-    $('div#message div').text("Welcome");
+    $('div#message div').text("Welcome to Topo Map!");
     setTimeout(function() {
         $('div#message').css("display", "none")
         //get location
@@ -49,7 +46,7 @@ $(document).ready(function() {
         ///set default map
         opentopo_map();
         windowOpen = "map";
-    }, 1000);
+    }, 2000);
 
     //leaflet add basic map
     map = L.map('map-container', {
@@ -57,7 +54,6 @@ $(document).ready(function() {
         dragging: false,
         keyboard: true
     }).fitWorld();
-
     L.control.scale({ position: 'topright', metric: true, imperial: false }).addTo(map);
 
   
@@ -67,12 +63,12 @@ $(document).ready(function() {
 
     function opentopo_map() {
         tilesUrl = 'https://tile.opentopomap.org/{z}/{x}/{y}.png'
-        tilesLayer = L.tileLayer(tilesUrl, {
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 17,
             attribution: 'Map data © OpenStreetMap contributors, SRTM<div>Imagery: © OpenTopoMap (CC-BY-SA)</div>'
         });
-
         map.addLayer(tilesLayer);
+        ZoomMap("in")
     }
 
     ////////////////////
@@ -83,16 +79,25 @@ $(document).ready(function() {
     /////////////////////////
 
     function getLocation(option) {
-
         marker_latlng = false;
-        if (option == "init" || option == "update_marker") {
+        if (option == "init") {
+            toaster("Seeking Position. Press the center key to open the menu, d-pad to navigate the map and left/right keys to zoom.", 10000);
+            let options = {
+                enableHighAccuracy: false,
+                timeout: 15000,
+                maximumAge: Infinity
+              };
+            navigator.geolocation.getCurrentPosition(success, error, options);
         }
-        let options = {
-            enableHighAccuracy: true,
-            timeout: 50000,
-            maximumAge: 0
-        };
-
+        if (option == "update_marker") {
+            toaster("Seeking Position...", 2000);
+            let options = {
+                enableHighAccuracy: true,
+                timeout: Infinity,
+                maximumAge: 0
+              };
+            navigator.geolocation.getCurrentPosition(success, error, options);
+        }
         function success(pos) {
             let crd = pos.coords;
             current_lat = crd.latitude;
@@ -102,19 +107,19 @@ $(document).ready(function() {
             if (option == "init") {
                 myMarker = L.marker([current_lat, current_lng]).addTo(map);
                 $('div#message div').text("");
+                map.flyTo(new L.LatLng(current_lat, current_lng), 13);
+                zoom_speed();
                 return false;
             }
             if (option == "update_marker" && current_lat != "") {
                 myMarker.setLatLng([current_lat, current_lng]).update();
-                map.flyTo(new L.LatLng(current_lat, current_lng), 14);
-                zoom_speed()
+                map.flyTo(new L.LatLng(current_lat, current_lng));
             }
         }
         function error(err) {
-            toaster("Position not found", 2000);
+            toaster("Position not found. Press center key to search for a location.", 4000);
             return false;
         }
-        navigator.geolocation.getCurrentPosition(success, error, options);
     }
 
     //////////////////////////
@@ -122,20 +127,35 @@ $(document).ready(function() {
     /////////////////////////
 
     function showSearch() {
-
-        bottom_bar("Position", "SELECT", "About")
+        bottom_bar("Position", "SELECT", "?/About");
         $('div#search-box').css('display', 'block');
         $('div#search-box').find("input").focus();
-        $("div#bottom-bar").css("display", "block")
+        $("div#bottom-bar").css("display", "block");
         windowOpen = "search";
-
+    }
+    function hideSearch() {
+        $("div#bottom-bar").css("display", "none");
+        $('div#search-box').css('display', 'none');
+        $('div#search-box').find("input").blur();
+        windowOpen = "map";
     }
 
-    function hideSearch() {
-        $("div#bottom-bar").css("display", "none")
+
+    // ABOUT
+    function showAbout() {
+        bottom_bar("Close", "SELECT", "About");
         $('div#search-box').css('display', 'none');
-        $('div#search-box').find("input").val("");
+        $("div#toast").css("display", "none");
         $('div#search-box').find("input").blur();
+        $('div#about').css('display', 'block');
+        $("div#bottom-bar").css("display", "block");
+        windowOpen = "about";
+        nav(1);
+    }
+    function hideAbout() {
+        $("div#bottom-bar").css("display", "none");
+        $('div#about').css('display', 'none');
+        document.activeElement.blur();
         windowOpen = "map";
     }
 
@@ -144,7 +164,6 @@ $(document).ready(function() {
     ////////////////////
 
     function ZoomMap(in_out) {
-
         let current_zoom_level = map.getZoom();
         if (windowOpen == "map" && $('div#search-box').css('display') == 'none') {
             if (in_out == "in") {
@@ -206,6 +225,9 @@ $(document).ready(function() {
         if (zoom_level > 15) {
             step = 0.001;
         }
+        if (zoom_level > 16) {
+            step = 0.0005;
+        }
         return step;
     }
 
@@ -218,32 +240,23 @@ $(document).ready(function() {
             if (windowOpen == "map") {
                 if (direction == "left") {
                     zoom_speed()
-
                     current_lng = current_lng - step;
                     map.panTo(new L.LatLng(current_lat, current_lng));
                 }
-
                 if (direction == "right") {
                     zoom_speed()
-
                     current_lng = current_lng + step;
                     map.panTo(new L.LatLng(current_lat, current_lng));
                 }
-
                 if (direction == "up") {
                     zoom_speed()
-
                     current_lat = current_lat + step;
                     map.panTo(new L.LatLng(current_lat, current_lng));
-
                 }
-
                 if (direction == "down") {
                     zoom_speed()
-
                     current_lat = current_lat - step;
                     map.panTo(new L.LatLng(current_lat, current_lng));
-
                 }
             }
         }
@@ -257,32 +270,25 @@ $(document).ready(function() {
                     marker_lng = marker_lng - step;
                     map.panTo(new L.LatLng(marker_lat, marker_lng));
                 }
-
                 if (direction == "right") {
                     zoom_speed()
                     marker_lng = marker_lng + step;
                     map.panTo(new L.LatLng(marker_lat, marker_lng));
                 }
-
                 if (direction == "up") {
                     zoom_speed()
                     marker_lat = marker_lat + step;
                     map.panTo(new L.LatLng(marker_lat, marker_lng));
-
                 }
-
                 if (direction == "down") {
                     zoom_speed()
                     marker_lat = marker_lat - step;
                     map.panTo(new L.LatLng(marker_lat, marker_lng));
-
                 }
             }
         }
 
     }
-
-   
 
     //////////////////////////////
     ////KEYPAD HANDLER////////////
@@ -293,40 +299,25 @@ $(document).ready(function() {
     let timeout;
 
     function repeat_action(param) {
+        if (windowOpen == "map"){
         switch (param.key) {
             case 'ArrowUp':
                 MovemMap("up")
                 break;
-
             case 'ArrowDown':
                 MovemMap("down")
                 break;
-
             case 'ArrowLeft':
                 MovemMap("left")
                 break;
-
             case 'ArrowRight':
                 MovemMap("right")
-                break;
+                break; 
             case 'Enter':
                 break;
         }
     }
-
-    //////////////
-    ////LONGPRESS
-    /////////////
-
-
-    function longpress_action(param) {
-        switch (param.key) {
-            case 'Enter':
-                getLocation("update_marker")
-                break;
-        }
     }
-
 
     ///////////////
     ////SHORTPRESS
@@ -334,11 +325,9 @@ $(document).ready(function() {
 
     function shortpress_action(param) {
         switch (param.key) {
-
             case 'EndCall':
                 window.close();
                 break;
-
             case 'Backspace':
                 param.preventDefault();
                 if (windowOpen == "search") {
@@ -349,7 +338,6 @@ $(document).ready(function() {
                     window.close();
                 }
                 break;
-
             case 'SoftLeft':
                 if (windowOpen == "search") {
                     getLocation("update_marker")
@@ -359,50 +347,85 @@ $(document).ready(function() {
                 if (windowOpen == "map") {
                     ZoomMap("out");
                     return false;
-
                 }
-                break;
-
-            case 'SoftRight':
-                if (windowOpen == "search") {
-                    window.open('about.html');
+                if (windowOpen == "about") {
+                    hideAbout();
                     return false;
                 }
+                break;
+            case 'SoftRight':
+                if (windowOpen == "search") {
+                    showAbout();
+                    return false;
+                }
+                if (windowOpen == "about") {
+                    window.open('about.html', "new", "menubar,toolbar,scrollbars");
+                    return false;
+                    }
                 if (windowOpen == "map") {
                     ZoomMap("in");
-
                 }
                 break;
-
             case 'Enter':
                 if (windowOpen == "map") {
                     showSearch();
                     return false;
                 }
+                if (windowOpen == "about") {
+                    nav(1);
+                }
                 if (windowOpen == "search") {
                     hideSearch();
                     return false;
                 }
-
                 break;
-
             case 'ArrowRight':
+                if (windowOpen == "map") {
                 MovemMap("right")
+                return false;
+                }
+                if (windowOpen == "about") {
+                nav(1);
+                }
                 break;
-
             case 'ArrowLeft':
+                if (windowOpen == "map") {
                 MovemMap("left")
+                return false;
+                }
+                if (windowOpen == "about") {
+                    nav(1);
+                }
                 break;
-
             case 'ArrowUp':
+                if (windowOpen == "map") {
                 MovemMap("up")
+                return false;
+                }
+                if (windowOpen == "about") {
+                    nav(1);
+                }
                 break;
-
             case 'ArrowDown':
+                if (windowOpen == "map") {
                 MovemMap("down")
+                return false;
+                }
+                if (windowOpen == "about") {
+                nav(1);
+                }
                 break;
         }
     }
+
+    // D-Pad navigation
+    function nav (move) {
+        const currentIndex = document.activeElement.tabIndex;
+        const next = currentIndex + move;
+        const items = document.querySelectorAll('.items');
+        const targetElement = items[next];
+        targetElement.focus();
+      }
 
     /////////////////////////////////
     ////shortpress / longpress logic
@@ -414,10 +437,8 @@ $(document).ready(function() {
             longpress = false;
             timeout = setTimeout(() => {
                 longpress = true;
-                longpress_action(evt);
             }, longpress_timespan);
         }
-
         if (evt.repeat) {
             longpress = false;
             repeat_action(evt);
@@ -434,21 +455,5 @@ $(document).ready(function() {
 
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('keyup', handleKeyUp);
-
-    //////////////////////////
-    ////BUG OUTPUT////////////
-    /////////////////////////
-    if (debug) {
-        $(window).on("error", function(evt) {
-            console.log("jQuery error event:", evt);
-            var e = evt.originalEvent; // get the javascript event
-            console.log("original event:", e);
-            if (e.message) {
-                alert("Error:\n\t" + e.message + "\nLine:\n\t" + e.lineno + "\nFile:\n\t" + e.filename);
-            } else {
-                alert("Error:\n\t" + e.type + "\nElement:\n\t" + (e.srcElement || e.target));
-            }
-        });
-    }
 
 });
