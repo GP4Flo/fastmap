@@ -67,22 +67,6 @@ div#bottom-bar div#button-right{
     width:30%;
     text-align:right
 }
-div#message{
-    position:absolute;
-    z-index:2000;
-    left:0;
-    top:0;
-    background:#000;
-    color:#fff;
-    font-size:16px;
-    padding:5px
-}
-div#message div{
-    background:#000;
-    color:#fff;
-    font-size:16px;
-    padding:3px
-}
 div#about{
     display:none;
     padding:1px
