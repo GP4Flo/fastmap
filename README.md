@@ -11,12 +11,18 @@ Topo Map is an OpenStreetMap app for KaiOS devices. It's a fork of osm-map with 
 + Tile layer fallback (useful for slow mobile connections)
 
 ### Maps
-+ Open Topo Map https://opentopomap.org/
++ 1 Open Topo Map https://opentopomap.org/
++ 2 Open Cycle Map https://www.opencyclemap.org/
++ 3 Outdoors Map (for hiking) https://www.thunderforest.com/maps/outdoors/
++ 4 Mountainbike Map http://www.mtbmap.cz/
++ 5 World Imagery http://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9
++ 6 Openstreetmap basic https://www.openstreetmap.org/
 
 ### Manual
 + **Soft-keys** Zoom the map
 + **Cursor** Moving the map
 + **Enter** Open menu / location search
++ **1 - 6** Change map layout
 
 ### Screenshots
 ![topo1](/topo1.png)
