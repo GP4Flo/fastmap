@@ -19,25 +19,6 @@ let marker_latlng = false;
 
 $(document).ready(function() {
 
-//KaiAds
-getKaiAd({
-    publisher: '6c03d2e1-0833-4731-aac0-801acfc4eb6e',
-    app: 'Topo Map',
-    slot: 'About',
-    test: 0,
-    h: 223,
-    w: 238,
-    container: document.getElementById('ad-container'),
-    onerror: err => console.error('Custom catch:', err),
-    onready: ad => {
-        ad.call('display', {
-            tabindex: 0,
-            navClass: 'items',
-            display: 'block',
-        })
-    }
-});
-
     setTimeout(function() {
         //get location
         getLocation("init");
@@ -434,9 +415,6 @@ getKaiAd({
                 if (windowOpen == "map") {
                     showSearch();
                     return false;
-                }
-                if (windowOpen == "about") {
-                    nav(1);
                 }
                 if (windowOpen == "search") {
                     hideSearch();
