@@ -6,7 +6,8 @@ let current_lat = 0;
 let current_alt;
 let current_heading;
 
-let zoom_level;
+let zoom_level = 13;
+let current_zoom_level = 13;
 let myMarker = "";
 let windowOpen = "map";
 
@@ -18,16 +19,32 @@ let marker_latlng = false;
 
 $(document).ready(function() {
 
-    //welcome message
-    $('div#message div').text("Welcome to Topo Map!");
+//KaiAds
+getKaiAd({
+    publisher: '6c03d2e1-0833-4731-aac0-801acfc4eb6e',
+    app: 'Topo Map',
+    slot: 'About',
+    test: 0,
+    h: 223,
+    w: 238,
+    container: document.getElementById('ad-container'),
+    onerror: err => console.error('Custom catch:', err),
+    onready: ad => {
+        ad.call('display', {
+            tabindex: 0,
+            navClass: 'items',
+            display: 'block',
+        })
+    }
+});
+
     setTimeout(function() {
-        $('div#message').css("display", "none")
         //get location
         getLocation("init");
         ///set default map
         opentopo_map();
         windowOpen = "map";
-    }, 2000);
+    }, 0);
 
     //leaflet add basic map
     map = L.map('map-container', {
@@ -36,20 +53,63 @@ $(document).ready(function() {
         keyboard: true
     }).fitWorld();
     L.control.scale({ position: 'topright', metric: true, imperial: false }).addTo(map);
-
   
     ////////////////////
     ////MAPS////////////
     ///////////////////
 
     function opentopo_map() {
-        tilesUrl = 'https://tile.opentopomap.org/{z}/{x}/{y}.png'
+        tilesUrl = 'http://tile.opentopomap.org/{z}/{x}/{y}.png'
         tilesLayer = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 17,
             attribution: 'Map data © OpenStreetMap contributors, SRTM<div>Imagery: © OpenTopoMap (CC-BY-SA)</div>'
         });
         map.addLayer(tilesLayer);
-        ZoomMap("in")
+    }
+
+    function opencycle_map() {
+        tilesUrl = 'http://tile.thunderforest.com/cycle/{z}/{x}/{y}.png32?apikey=5bd2317851a14fcaa3f0986eb79b8725'
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
+            maxZoom: 22,
+            attribution: 'Map data © OpenStreetMap contributors<div>OpenCycleMap © Thunderforest</div>'
+        });
+        map.addLayer(tilesLayer);
+    }
+
+    function outdoors_map() {
+        tilesUrl = 'http://tile.thunderforest.com/outdoors/{z}/{x}/{y}.png32?apikey=5bd2317851a14fcaa3f0986eb79b8725'
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
+            maxZoom: 22,
+            attribution: 'Map data © OpenStreetMap contributors<div>Outdoors Map © Thunderforest</div>'
+        });
+        map.addLayer(tilesLayer);
+    }
+
+    function osm_map() {
+        tilesUrl = 'http://tile.openstreetmap.org/{z}/{x}/{y}.png?'
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
+            maxZoom: 18,
+            attribution: 'Map data © OpenStreetMap contributors'
+        });
+        map.addLayer(tilesLayer);
+    }
+
+    function worldimagery_map() {
+        tilesUrl = 'http://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}'
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
+            maxZoom: 19,
+            attribution: 'Tiles &copy; Esri &mdash; Source: Esri, i-cubed, USDA, USGS, AEX, GeoEye, Getmapping, Aerogrid, IGN, IGP, UPR-EGP, and the GIS User Community</div>'
+        });
+        map.addLayer(tilesLayer);
+    }
+
+    function mtb_map() {
+        tilesUrl = 'http://tile.mtbmap.cz/mtbmap_tiles/{z}/{x}/{y}.png'
+        tilesLayer = L.tileLayer.fallback(tilesUrl, {
+            maxZoom: 18,
+            attribution: 'Map data © OpenStreetMap contributors, USGS'
+        });
+        map.addLayer(tilesLayer);
     }
 
     ////////////////////
@@ -62,7 +122,7 @@ $(document).ready(function() {
     function getLocation(option) {
         marker_latlng = false;
         if (option == "init") {
-            toaster("Seeking Position. Press the center key to open the menu, d-pad to navigate the map and left/right keys to zoom.", 10000);
+            toaster("Seeking Position. Press the center key to open the menu.", 10000);
             let options = {
                 enableHighAccuracy: false,
                 timeout: 15000,
@@ -87,7 +147,6 @@ $(document).ready(function() {
             current_heading = crd.heading;
             if (option == "init") {
                 myMarker = L.marker([current_lat, current_lng]).addTo(map);
-                $('div#message div').text("");
                 map.flyTo(new L.LatLng(current_lat, current_lng), 13);
                 zoom_speed();
                 return false;
@@ -306,6 +365,30 @@ $(document).ready(function() {
 
     function shortpress_action(param) {
         switch (param.key) {
+            case '1':
+                map.removeLayer(tilesLayer)
+                opentopo_map();
+                break;
+            case '2':
+                map.removeLayer(tilesLayer)
+                opencycle_map();
+                break;
+            case '3':
+                map.removeLayer(tilesLayer)
+                outdoors_map();
+                break;
+            case '4':
+                map.removeLayer(tilesLayer)
+                mtb_map();
+                break;
+            case '5':
+                map.removeLayer(tilesLayer)
+                worldimagery_map();
+                break;
+            case '6':
+                map.removeLayer(tilesLayer)
+                osm_map();
+                break;
             case 'EndCall':
                 window.close();
                 break;
