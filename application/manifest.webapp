@@ -45,6 +45,11 @@
 				"description":"Topo Map هي خريطة طبوغرافية مع تظليل التل وخطوط الكنتور على أساس OpenStreetMap (osm). ويتميز بمسارات للمشي لمسافات طويلة وركوب الدراجات وركوب الدراجات في الجبال ومنحدرات التزلج ويظهر الطقس (السحب والأمطار).",
 				"subtitle": "خريطة طبوغرافية (OpenStreetMap)"
 			},
+			"az-Latn-AZ":{
+				"name":"Topo xəritə",
+				"description":"Topo xəritə, OpenStreetMap (osm) əsaslı təpə gölgeleme və kontur xətləri olan bir topoqrafik xəritədir. Yürüyüş, velosiped sürmək üçün marşrutlar təqdim edir və havanı (buludlar və yağış) göstərir.",
+				"subtitle": "Topoqrafik xəritə (OpenStreetMap)"
+			},
 			"de-DE":{
 				"name":"Topo Karte",
 				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Du kannst Routen für viele Outdoor Aktivitäten wie Wandern, Radfahren, Mountainbike anzeigen lassen sowie das Wetter (Regenradar).",
