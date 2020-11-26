@@ -37,12 +37,12 @@
 			},
 			"es-US":{
 				"name":"Mapa Topo",
-				"description":"Mapa Topo es un mapa topográfico gratuito basado en OpenStreetMap (osm). Use el D-Pad para navegar por el mapa, las teclas izquierda y derecha para alejar y acercar. Presione el botón central para abrir la búsqueda.",
+				"description":"Mapa Topo es un mapa topográfico con sombreado de colinas y líneas de contorno basado en OpenStreetMap (osm). Cuenta con rutas para senderismo, ciclismo, BTT, pistas de esquí y muestra el tiempo actual (nubes y lluvia).",
 				"subtitle": "Mapa topográfico (OpenStreetMap)"
 			},
 			"es-ES":{
 				"name":"Mapa Topo",
-				"description":"Mapa Topo es un mapa topográfico gratuito basado en OpenStreetMap (osm). Use el D-Pad para navegar por el mapa, las teclas izquierda y derecha para alejar y acercar. Presione el botón central para abrir la búsqueda.",
+				"description":"Mapa Topo es un mapa topográfico con sombreado de colinas y líneas de contorno basado en OpenStreetMap (osm). Cuenta con rutas para senderismo, ciclismo, BTT, pistas de esquí y muestra el tiempo actual (nubes y lluvia).",
 				"subtitle": "Mapa topográfico (OpenStreetMap)"
 			},
 			"fr-FR":{
