@@ -30,6 +30,16 @@
 				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
+			"en-GB":{
+				"name":"Topo Map",
+				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"subtitle": "Topographic map (OpenStreetMap)"
+			},
+			"af-ZA":{
+				"name":"Topo Map",
+				"description":"Topo Map is 'n gratis topografiese kaart met heuwelskadu en kontoerlyne gebaseer op OpenStreetMap (osm). Dit bied roetes vir stap, fietsry, bergfietsry, ski-hange en toon die huidige weer (wolke en reën).',
+				"subtitle": "Topographic map (OpenStreetMap)"
+			},
 			"de-DE":{
 				"name":"Topo Karte",
 				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Du kannst Routen für viele Outdoor Aktivitäten wie Wandern, Radfahren, Mountainbike anzeigen lassen sowie das Wetter (Regenradar).",
