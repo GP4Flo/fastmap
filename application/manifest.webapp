@@ -1,8 +1,8 @@
 	{
 	    "version": "1.0.4",
 	    "name": "Topo Map",
-		"subtitle": "Topographic map",
-	    "description": "Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). This app is a good companion for your outdoor activities like hiking, cycling, mountain biking, horseback riding, etc.",
+		"subtitle": "Topographic map (OpenStreetMap)",
+	    "description": "Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It can show routes for many outdoor activities like hiking, cycling, mountain biking and the weather (clouds and rain).",
 	    "launch_path": "/index.html",
 	    "type": "web",
 	    "fullscreen": "true",
@@ -21,18 +21,18 @@
 	        "geolocation": {
 	            "description": "Required to show your location on the map."
 				},
-			"mobiledata":{},
-			"wifidata":{}
+		"mobiledata":{},
+		"wifidata":{}
 	    },
 		"locales":{
 			"en-US":{
 				"name":"Topo Map",
-				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). This app is a good companion for your outdoor activities like hiking, cycling, mountain biking, horseback riding, etc.",
+				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It can show routes for many outdoor activities like hiking, cycling, mountain biking and the weather (clouds and rain).",
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
 			"de-DE":{
 				"name":"Topo Karte",
-				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Die Karte ist Dein idealer Begleiter für Deine Outdoor Aktivitäten wie Wandern, Joggen, Radfahren, Mountainbike, Reiten, Kanu, usw.",
+				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Du kannst Routen für viele Outdoor Aktivitäten wie Wandern, Joggen, Radfahren, Mountainbike, Reiten, anze7gen lassen sowie das aktuelle Wetter (Regenradar).",
 				"subtitle": "Topographische Karte (OpenStreetMap)"
 			},
 			"es-US":{
