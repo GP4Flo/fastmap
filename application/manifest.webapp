@@ -40,6 +40,11 @@
 				"description":"Topo Map is 'n gratis topografiese kaart met heuwelskadu en kontoerlyne gebaseer op OpenStreetMap (osm). Dit bied roetes vir stap, fietsry, bergfietsry, ski-hange en toon die huidige weer (wolke en reën).',
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
+			"ar-SA":{
+				"name":"خريطة طبوغرافية",
+				"description":"Topo Map هي خريطة طبوغرافية مجانية مع تظليل التل وخطوط الكنتور على أساس OpenStreetMap (osm). يتميز بمسارات للمشي لمسافات طويلة وركوب الدراجات في الجبال وركوب الدراجات في الجبال ومنحدرات التزلج ويعرض الطقس الحالي (السحب والأمطار).',
+				"subtitle": "خريطة طبوغرافية (OpenStreetMap)"
+			},
 			"de-DE":{
 				"name":"Topo Karte",
 				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Du kannst Routen für viele Outdoor Aktivitäten wie Wandern, Radfahren, Mountainbike anzeigen lassen sowie das Wetter (Regenradar).",
