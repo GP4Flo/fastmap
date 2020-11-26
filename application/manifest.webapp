@@ -2,7 +2,7 @@
 	    "version": "1.0.4",
 	    "name": "Topo Map",
 		"subtitle": "Topographic map (OpenStreetMap)",
-	    "description": "Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It can show routes for many outdoor activities like hiking, cycling, mountain biking and the weather (clouds and rain).",
+	    "description": "Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
 	    "launch_path": "/index.html",
 	    "type": "web",
 	    "fullscreen": "true",
@@ -27,7 +27,7 @@
 		"locales":{
 			"en-US":{
 				"name":"Topo Map",
-				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It can show routes for hiking, cycling, mountain biking, skiing slopes and the weather (clouds and rain).",
+				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
 			"de-DE":{
@@ -47,12 +47,12 @@
 			},
 			"fr-FR":{
 				"name":"Carte Topo",
-				"description":"Carte Topo est une carte topographique gratuite avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il peut montrer des itinéraires pour de nombreuses activités de plein air comme la randonnée, le cyclisme, le VTT et la météo (nuages et pluie).",
+				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
 				"subtitle": "Carte topographique (OpenStreetMap)"
 			},
 			"fr-CA":{
 				"name":"Carte Topo",
-				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Cette application est un bon compagnon pour vos activités de plein air comme la randonnée, le VTT, etc.",
+				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
 				"subtitle": "Carte topographique (OpenStreetMap)"
 			}
 		},
