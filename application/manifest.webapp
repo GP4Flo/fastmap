@@ -120,6 +120,36 @@
 				"description":"Ilmainen topografinen kartta, jossa kukkuloiden varjostus ja ääriviivat, joka perustuu OpenStreetMap (osm) -ohjelmaan. Siinä on reittejä patikointiin, pyöräilyyn, maastopyöräilyyn, laskettelurinteille ja näyttää nykyisen sään (pilvet ja sade).",
 				"subtitle": "Topografinen kartta (OpenStreetMap)"
 			},
+			"fil-PH":{
+				"name":"Topo na mapa",
+				"description":"Libreng topographic na mapa na may burol na pagtatabing at mga linya ng tabas batay sa OpenStreetMap (osm). Nagtatampok ito ng mga ruta para sa hiking, pagbibisikleta, pagbibisikleta sa bundok, mga slope ng skiing at ipinapakita ang kasalukuyang panahon (ulap at ulan).",
+				"subtitle": "Topographic na mapa (OpenStreetMap)"
+			},
+			"he-IL":{
+				"name":"מפה טופוגרפית",
+				"description":"מפה טופוגרפית בחינם עם הצללה וקווי קווי מתאר המבוססים על OpenStreetMap (osm). הוא כולל מסלולים לטיולים רגליים, רכיבה על אופניים, אופני הרים, מדרונות סקי ומציג את מזג האוויר הנוכחי (עננים וגשם).",
+				"subtitle": "(OpenStreetMap) מפה טופוגרפית"
+			},
+			"hi-HI":{
+				"name":"स्थलाकृतिक नक्शा",
+				"description":"OpenStreetMap (osm) पर आधारित पहाड़ी छायांकन और समोच्च लाइनों के साथ मुक्त स्थलाकृतिक मानचित्र। इसमें लंबी पैदल यात्रा, साइकिल चलाना, माउंटेन बाइकिंग, स्कीइंग ढलान के लिए मार्ग हैं और वर्तमान मौसम (बादलों और बारिश) को दर्शाता है।",
+				"subtitle": "स्थलाकृतिक मानचित्र (OpenStreetMap)"
+			},
+			"hr-HR":{
+				"name":"Topo karta",
+				"description":"Besplatna topografska karta sa sjenčanjem brda i konturnim linijama na temelju OpenStreetMap (osm). Sadrži rute za planinarenje, biciklizam, brdski biciklizam, skijaške staze i prikazuje trenutno vrijeme (oblaci i kiša).",
+				"subtitle": "topografska karta (OpenStreetMap)"
+			},
+			"hu-HU":{
+				"name":"Topo térkép",
+				"description":"Ingyenes topográfiai térkép dombok árnyékolásával és kontúrvonalakkal az OpenStreetMap (osm) alapján. Tartalmaz túrázás, kerékpározás, hegyikerékpározás, sípályák útvonalait, és bemutatja az aktuális időjárást (felhők és eső).",
+				"subtitle": "Topográfiai térkép (OpenStreetMap)"
+			},
+			"hy-AM":{
+				"name":"Տեղագրական քարտեզ",
+				"description":"Անվճար տեղագրական քարտեզ բլրի ստվերով և ուրվագծային գծերով OpenStreetMap- ի (osm) հիման վրա: Այն պարունակում է արշավների, հեծանվավազքի, լեռնային հեծանվավազքի, դահուկային լանջերի երթուղիներ և ցույց է տալիս ներկայիս եղանակը (ամպեր և անձրև):",
+				"subtitle": "Տեղագրական քարտեզ (OpenStreetMap)"
+			},
 			"fr-FR":{
 				"name":"Carte Topo",
 				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
