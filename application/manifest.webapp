@@ -110,6 +110,16 @@
 				"description":"OpenStreetMapil (osm) põhinev tasuta topograafiline kaart koos mägede varjutamise ja kontuurjoontega See sisaldab marsruute matkamiseks, jalgrattasõiduks, mägirattasõiduks, suusanõlvadeks ja näitab praegust ilma (pilved ja vihm).",
 				"subtitle": "Topograafiline kaart (OpenStreetMap)"
 			},
+			"fa-IR":{
+				"name":"نقشه توپوگرافی",
+				"description":"نقشه توپوگرافی رایگان با سایه بان و خطوط کانتور بر اساس OpenStreetMap (osm). این هتل مسیرهایی برای پیاده روی ، دوچرخه سواری ، دوچرخه سواری در کوهستان ، پیست های اسکی دارد و آب و هوای فعلی (ابر و باران) را نشان می دهد.",
+				"subtitle": "(OpenStreetMap) نقشه توپوگرافی"
+			},
+			"fi-FI":{
+				"name":"Topo kartta",
+				"description":"Ilmainen topografinen kartta, jossa kukkuloiden varjostus ja ääriviivat, joka perustuu OpenStreetMap (osm) -ohjelmaan. Siinä on reittejä patikointiin, pyöräilyyn, maastopyöräilyyn, laskettelurinteille ja näyttää nykyisen sään (pilvet ja sade).",
+				"subtitle": "Topografinen kartta (OpenStreetMap)"
+			},
 			"fr-FR":{
 				"name":"Carte Topo",
 				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
