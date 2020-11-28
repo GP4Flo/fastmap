@@ -150,6 +150,16 @@
 				"description":"Անվճար տեղագրական քարտեզ բլրի ստվերով և ուրվագծային գծերով OpenStreetMap- ի (osm) հիման վրա: Այն պարունակում է արշավների, հեծանվավազքի, լեռնային հեծանվավազքի, դահուկային լանջերի երթուղիներ և ցույց է տալիս ներկայիս եղանակը (ամպեր և անձրև):",
 				"subtitle": "Տեղագրական քարտեզ (OpenStreetMap)"
 			},
+			"id-ID":{
+				"name":"Peta topo",
+				"description":"Peta topografi gratis dengan bayangan bukit dan garis kontur berdasarkan OpenStreetMap (osm). Ini fitur rute untuk hiking, bersepeda, bersepeda gunung, lereng ski dan menunjukkan cuaca saat ini (awan dan hujan).",
+				"subtitle": "Peta topografi (OpenStreetMap)"
+			},
+			"is-IS":{
+				"name":"Landfræðilegt kort",
+				"description":"Ókeypis staðfræðikort með hlífðarskyggingu og útlínulínur byggðar á OpenStreetMap (osm). Það er með gönguleiðir, hjólreiðar, fjallahjólreiðar, skíðabrekkur og sýnir núverandi veður (ský og rigning).",
+				"subtitle": "Landfræðilegt kort (OpenStreetMap)"
+			},
 			"fr-FR":{
 				"name":"Carte Topo",
 				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
