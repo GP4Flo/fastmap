@@ -27,12 +27,12 @@
 		"locales":{
 			"en-US":{
 				"name":"Topo Map",
-				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
 			"en-GB":{
 				"name":"Topo Map",
-				"description":"Topo Map is a free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
 				"subtitle": "Topographic map (OpenStreetMap)"
 			},
 			"af-ZA":{
@@ -43,12 +43,27 @@
 			"ar-SA":{
 				"name":"خريطة طبوغرافية",
 				"description":"Topo Map هي خريطة طبوغرافية مع تظليل التل وخطوط الكنتور على أساس OpenStreetMap (osm). ويتميز بمسارات للمشي لمسافات طويلة وركوب الدراجات وركوب الدراجات في الجبال ومنحدرات التزلج ويظهر الطقس (السحب والأمطار).",
-				"subtitle": "خريطة طبوغرافية (OpenStreetMap)"
+				"subtitle": "الخريطة الطبوغرافية (OpenStreetMap)"
 			},
 			"az-Latn-AZ":{
 				"name":"Topo xəritə",
 				"description":"Topo xəritə, OpenStreetMap (osm) əsaslı təpə gölgeleme və kontur xətləri olan bir topoqrafik xəritədir. Yürüyüş, velosiped sürmək üçün marşrutlar təqdim edir və havanı (buludlar və yağış) göstərir.",
 				"subtitle": "Topoqrafik xəritə (OpenStreetMap)"
+			},
+			"be-BY":{
+				"name":"Тапаграфічная карта",
+				"description":"Бясплатная тапаграфічная карта з зацяненнем пагоркаў і контурнымі лініямі на аснове OpenStreetMap (osm). У ім ёсць маршруты для паходаў, веласіпедных прагулак, катання на горных роварах, лыжных схілах і паказвае бягучае надвор'е (аблокі і дождж).",
+				"subtitle": "Тапаграфічная карта (OpenStreetMap)"
+			},
+			"bg-BG":{
+				"name":"Топографска карта",
+				"description":"Безплатна топографска карта със засенчване на хълм и контурни линии на базата на OpenStreetMap (osm). Той предлага маршрути за туризъм, колоездене, планинско колоездене, ски писти и показва текущото време (облаци и дъжд).",
+				"subtitle": "Топографска карта (OpenStreetMap)"
+			},
+			"bn-IN":{
+				"name":"টপোগ্রাফিক মানচিত্র",
+				"description":"ওপেনস্ট্রিটম্যাপ (ওএসএম) এর ভিত্তিতে হিল শেডিং এবং কনট্যুর লাইনের সাথে নিখরচায় টপোগ্রাফিক মানচিত্র। এটি হাইকিং, সাইক্লিং, পর্বত বাইক, স্কিইং slালু এবং বর্তমান আবহাওয়া (মেঘ এবং বৃষ্টি) এর জন্য রুটগুলি বৈশিষ্ট্যযুক্ত করে।",
+				"subtitle": "বিবরণ সম্বন্ধীয় মানচিত্র (ওপেনস্ট্রীটম্যাপ)"
 			},
 			"de-DE":{
 				"name":"Topo Karte",
