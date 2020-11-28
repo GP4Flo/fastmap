@@ -65,10 +65,35 @@
 				"description":"ওপেনস্ট্রিটম্যাপ (ওএসএম) এর ভিত্তিতে হিল শেডিং এবং কনট্যুর লাইনের সাথে নিখরচায় টপোগ্রাফিক মানচিত্র। এটি হাইকিং, সাইক্লিং, পর্বত বাইক, স্কিইং slালু এবং বর্তমান আবহাওয়া (মেঘ এবং বৃষ্টি) এর জন্য রুটগুলি বৈশিষ্ট্যযুক্ত করে।",
 				"subtitle": "বিবরণ সম্বন্ধীয় মানচিত্র (ওপেনস্ট্রীটম্যাপ)"
 			},
+			"bn-BD":{
+				"name":"টপোগ্রাফিক মানচিত্র",
+				"description":"ওপেনস্ট্রিটম্যাপ (ওএসএম) এর ভিত্তিতে হিল শেডিং এবং কনট্যুর লাইনের সাথে নিখরচায় টপোগ্রাফিক মানচিত্র। এটি হাইকিং, সাইক্লিং, পর্বত বাইক, স্কিইং slালু এবং বর্তমান আবহাওয়া (মেঘ এবং বৃষ্টি) এর জন্য রুটগুলি বৈশিষ্ট্যযুক্ত করে।",
+				"subtitle": "বিবরণ সম্বন্ধীয় মানচিত্র (ওপেনস্ট্রীটম্যাপ)"
+			},
+			"bs-BA":{
+				"name":"Topo karta",
+				"description":"Besplatna topografska karta s osenčenjem brda i konturnim linijama zasnovana na OpenStreetMap (osm). Sadrži rute za planinarenje, biciklizam, brdski biciklizam, skijaške staze i prikazuje trenutno vrijeme (oblaci i kiša).",
+				"subtitle": "Topografska karta (OpenStreetMap)"
+			},
+			"cs-CZ":{
+				"name":"Topo mapa",
+				"description":"Zdarma topografická mapa se stínováním kopců a vrstevnicemi na základě OpenStreetMap (osm). Představuje trasy pro pěší turistiku, cykloturistiku, horskou cyklistiku, sjezdovky a ukazuje aktuální počasí (mraky a déšť).",
+				"subtitle": "Topografická mapa (OpenStreetMap)"
+			},
+			"da-DK":{
+				"name":"Topo kort",
+				"description":"Gratis topografisk kort med bakkeskygge og konturlinjer baseret på OpenStreetMap (osm). Den har ruter til vandreture, cykling, mountainbiking, skiløjper og viser det aktuelle vejr (skyer og regn).",
+				"subtitle": "Topografisk kort (OpenStreetMap)"
+			},
 			"de-DE":{
 				"name":"Topo Karte",
 				"description":"Topo Karte ist eine kostenfreie topographische Karte basierend auf OpenStreetMap (osm). Du kannst Routen für viele Outdoor Aktivitäten wie Wandern, Radfahren, Mountainbike anzeigen lassen sowie das Wetter (Regenradar).",
 				"subtitle": "Topographische Karte (OpenStreetMap)"
+			},
+			"el-GR":{
+				"name":"Τοπο χάρτης",
+				"description":"Δωρεάν τοπογραφικός χάρτης με σκίαση λόφων και γραμμές περιγράμματος με βάση το OpenStreetMap (osm). Διαθέτει διαδρομές για πεζοπορία, ποδηλασία, ορεινή ποδηλασία, πίστες σκι και δείχνει τον τρέχοντα καιρό (σύννεφα και βροχή).",
+				"subtitle": "Τοπογραφικός χάρτης (OpenStreetMap)"
 			},
 			"es-US":{
 				"name":"Mapa Topo",
@@ -79,6 +104,11 @@
 				"name":"Mapa Topo",
 				"description":"Mapa Topo es un mapa topográfico con sombreado de colinas y líneas de contorno basado en OpenStreetMap (osm). Cuenta con rutas para senderismo, ciclismo, BTT, pistas de esquí y muestra el tiempo actual (nubes y lluvia).",
 				"subtitle": "Mapa topográfico (OpenStreetMap)"
+			},
+			"et-EE":{
+				"name":"Topo kaart",
+				"description":"OpenStreetMapil (osm) põhinev tasuta topograafiline kaart koos mägede varjutamise ja kontuurjoontega See sisaldab marsruute matkamiseks, jalgrattasõiduks, mägirattasõiduks, suusanõlvadeks ja näitab praegust ilma (pilved ja vihm).",
+				"subtitle": "Topograafiline kaart (OpenStreetMap)"
 			},
 			"fr-FR":{
 				"name":"Carte Topo",
