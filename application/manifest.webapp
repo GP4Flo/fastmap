@@ -215,6 +215,41 @@
 				"description":"Gratis topografische kaart met arcering van heuvels en contourlijnen op basis van OpenStreetMap (osm). Het biedt routes voor wandelen, fietsen, mountainbiken, skipistes en toont het huidige weer (wolken en regen).",
 				"subtitle": "topografische kaart (OpenStreetMap)"
 			},
+			"pl-PL":{
+				"name":"Mapa Topo",
+				"description":"Darmowa mapa topograficzna z cieniowaniem wzgórz i liniami konturowymi oparta na OpenStreetMap (osm). Zawiera trasy do uprawiania turystyki pieszej, rowerowej, kolarstwa górskiego, stoki narciarskie i pokazuje aktualną pogodę (chmury i deszcz).",
+				"subtitle": "Mapa Topograficzna (OpenStreetMap)"
+			},
+			"ps-AF":{
+				"name":"توپوګرافیک نقشه",
+				"description":"د آزاد سټریټ میپ (اوسم) پر بنسټ د غونډۍ سیوري کولو او سمدستي لینونو سره وړیا توپوګرافیک نقشه. دا د پیدل کیدو ، بایسکل چلولو ، د غرنۍ بایسکل چلولو ، د سکیینګ غرونو لپاره لارې ټاکي او اوسني هوا (بادل او باران) ښیې.",
+				"subtitle": "توپوګرافیک نقشه (اوپن سټریټ میپ)"
+			},
+			"pt-BR":{
+				"name":"Mapa Topo",
+				"description":"Mapa topográfico gratuito com sombreamento de colina e linhas de contorno baseado em OpenStreetMap (osm). Possui rotas para caminhadas, ciclismo, mountain bike, pistas de esqui e mostra o clima atual (nuvens e chuva).",
+				"subtitle": "Mapa topográfico (OpenStreetMap)"
+			},
+			"pt-PT":{
+				"name":"Mapa Topo",
+				"description":"Mapa topográfico gratuito com sombreamento de colina e linhas de contorno baseado em OpenStreetMap (osm). Possui rotas para caminhadas, ciclismo, mountain bike, pistas de esqui e mostra o clima atual (nuvens e chuva).",
+				"subtitle": "Mapa topográfico (OpenStreetMap)"
+			},
+			"ro-RO":{
+				"name":"Harta Topo",
+				"description":"Harta topografică gratuită cu umbrire de deal și linii de contur bazate pe OpenStreetMap (osm). Acesta oferă trasee pentru drumeții, ciclism, ciclism montan, pârtii de schi și arată vremea actuală (nori și ploaie).",
+				"subtitle": "Harta topografică (OpenStreetMap)"
+			},
+			"ru-RU":{
+				"name":"Топографическая карта",
+				"description":"Бесплатная топографическая карта с штриховкой холмов и контурными линиями на основе OpenStreetMap (osm). На нем есть маршруты для пеших прогулок, езды на велосипеде, катания на горных велосипедах, горнолыжные склоны и показана текущая погода (облака и дождь).",
+				"subtitle": "Топографическая карта (OpenStreetMap)"
+			},
+			"ru-RU":{
+				"name":"Топографическая карта",
+				"description":"Бесплатная топографическая карта с штриховкой холмов и контурными линиями на основе OpenStreetMap (osm). На нем есть маршруты для пеших прогулок, езды на велосипеде, катания на горных велосипедах, горнолыжные склоны и показана текущая погода (облака и дождь).",
+				"subtitle": "Топографическая карта (OpenStreetMap)"
+			},
 			"en-US":{
 				"name":"Topo Map",
 				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
