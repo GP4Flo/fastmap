@@ -25,16 +25,6 @@
 		"wifidata":{}
 	    },
 		"locales":{
-			"en-US":{
-				"name":"Topo Map",
-				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
-				"subtitle": "Topographic map (OpenStreetMap)"
-			},
-			"en-GB":{
-				"name":"Topo Map",
-				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
-				"subtitle": "Topographic map (OpenStreetMap)"
-			},
 			"af-ZA":{
 				"name":"Topo Kaart",
 				"description":"Topo Map is 'n gratis topografiese kaart met heuwelskadu en kontoerlyne gebaseer op OpenStreetMap (osm). Dit bied roetes vir stap, fietsry, bergfietsry, ski-hange en toon die huidige weer (wolke en reën).",
@@ -189,6 +179,51 @@
 				"name":"ແຜນທີ່ພູມສັນຖານ",
 				"description":"ແຜນທີ່ພູມສັນຖານທີ່ບໍ່ເສຍຄ່າກັບເສັ້ນຮົ່ມພູແລະເສັ້ນທາງອ້ອມໂດຍອີງໃສ່ OpenStreetMap (osm). ມັນມີເສັ້ນທາງ ສຳ ລັບການຍ່າງປ່າ, ຂີ່ລົດຖີບ, ຂີ່ລົດຖີບພູເຂົາ, ເປີ້ນພູສະກີແລະສະແດງອາກາດໃນປະຈຸບັນ (ຟັງແລະຝົນ).",
 				"subtitle": "ແຜນທີ່ພູມສັນຖານ (OpenStreetMap)"
+			},
+			"lv-LV":{
+				"name":"Topo karte",
+				"description":"Bezmaksas topogrāfiskā karte ar kalnu ēnojumu un kontūru līnijām, pamatojoties uz OpenStreetMap (osm). Tajā ir iekļauti maršruti pārgājieniem, riteņbraukšanai, kalnu riteņbraukšanai, slēpošanas trasēm un parādīti pašreizējie laika apstākļi (mākoņi un lietus).",
+				"subtitle": "Topogrāfiskā karte (OpenStreetMap)"
+			},
+			"mk-MK":{
+				"name":"Топографска карта",
+				"description":"Бесплатна топографска мапа со засенчување на ридот и контурни линии засновани на OpenStreetMap (осм). Се одликува со рути за пешачење, возење велосипед, планински велосипедизам, скијачки патеки и го прикажува моменталното време (облаци и дожд).",
+				"subtitle": "Топографска карта (OpenStreetMap)"
+			},
+			"mo-RO":{
+				"name":"Топографическая карта",
+				"description":"Бесплатная топографическая карта с штриховкой холмов и контурными линиями на основе OpenStreetMap (osm). На нем есть маршруты для пеших прогулок, езды на велосипеде, катания на горных велосипедах, горнолыжные склоны и показана текущая погода (облака и дождь).",
+				"subtitle": "Топографическая карта (OpenStreetMap)"
+			},
+			"ms-MY":{
+				"name":"Peta Topo",
+				"description":"Peta topografi percuma dengan lereng bukit dan garis kontur berdasarkan OpenStreetMap (osm). Ia mempunyai laluan untuk mendaki, berbasikal, berbasikal gunung, lereng ski dan menunjukkan cuaca semasa (awan dan hujan).",
+				"subtitle": "Peta topografi (OpenStreetMap)"
+			},
+			"nb-NO":{
+				"name":"Topografisk Kart",
+				"description":"Gratis topografisk kart med bakkeskygge og konturlinjer basert på OpenStreetMap (osm). Den har ruter for fotturer, sykling, terrengsykling, skibakker og viser dagens vær (skyer og regn).",
+				"subtitle": "Topografisk kart (OpenStreetMap)"
+			},
+			"ne-IN":{
+				"name":"टोपोग्राफिक नक्शा",
+				"description":"ओपनस्ट्रिएटम्याप (ओएसएम) मा आधारित हिल शेडिंग र कन्टूर लाइनहरू सहित निःशुल्क टोपोग्राफिक नक्शा। यसले हाईकिंग, साइकलिंग, माउन्टेन बाइकि,, स्कीइंग ढलान र वर्तमान मौसम (बादल र वर्षा) लाई देखाउँदछ।",
+				"subtitle": "टोपोग्राफिक नक्शा (OpenStreetMap)"
+			},
+			"nl-NL":{
+				"name":"Topo Kaart",
+				"description":"Gratis topografische kaart met arcering van heuvels en contourlijnen op basis van OpenStreetMap (osm). Het biedt routes voor wandelen, fietsen, mountainbiken, skipistes en toont het huidige weer (wolken en regen).",
+				"subtitle": "topografische kaart (OpenStreetMap)"
+			},
+			"en-US":{
+				"name":"Topo Map",
+				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"subtitle": "Topographic map (OpenStreetMap)"
+			},
+			"en-GB":{
+				"name":"Topo Map",
+				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"subtitle": "Topographic map (OpenStreetMap)"
 			},
 			"fr-FR":{
 				"name":"Carte Topo",
