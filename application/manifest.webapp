@@ -160,6 +160,36 @@
 				"description":"Ókeypis staðfræðikort með hlífðarskyggingu og útlínulínur byggðar á OpenStreetMap (osm). Það er með gönguleiðir, hjólreiðar, fjallahjólreiðar, skíðabrekkur og sýnir núverandi veður (ský og rigning).",
 				"subtitle": "Landfræðilegt kort (OpenStreetMap)"
 			},
+			"it-IT":{
+				"name":"Mappa topo",
+				"description":"Mappa topografica gratuita con ombreggiatura collina e curve di livello basata su OpenStreetMap (osm). Presenta percorsi per escursioni a piedi, in bicicletta, mountain bike, piste da sci e mostra il tempo corrente (nuvole e pioggia).",
+				"subtitle": "Mappa topografica (OpenStreetMap)"
+			},
+			"It-LT":{
+				"name":"Topo žemėlapis",
+				"description":"Nemokamas topografinis žemėlapis su kalvų šešėliais ir kontūro linijomis, pagrįstas „OpenStreetMap“ (osm). Jame pateikiami pėsčiųjų, dviračių, kalnų dviračių, slidinėjimo trasų maršrutai ir rodomi dabartiniai orai (debesys ir lietus).",
+				"subtitle": "Topografinis žemėlapis (OpenStreetMap)"
+			},
+			"ka-GE":{
+				"name":"ტოპოგრაფიული რუკა",
+				"description":"უფასო ტოპოგრაფიული რუკა გორაკის დაჩრდილვით და კონტურული ხაზებით OpenStreetMap (osm) საფუძველზე. მასში შედის სალაშქრო, ველოსიპედის, მთის ველოსიპედების, სათხილამურო ტრასების მარშრუტები და აჩვენებს ამჟამინდელ ამინდს (ღრუბლები და წვიმა).",
+				"subtitle": "ტოპოგრაფიული რუკა (OpenStreetMap)"
+			},
+			"kk-KZ":{
+				"name":"Топографиялық карта",
+				"description":"Тегін көлеңкелі топографиялық карта және контур сызықтары OpenStreetMap (osm) негізінде. Онда жаяу серуендеуге, велосипедпен жүруге, тау велосипедіне, шаңғы беткейлеріне арналған маршруттар көрсетілген және қазіргі ауа-райы (бұлт пен жаңбыр) көрсетілген.",
+				"subtitle": "Топографиялық карта (OpenStreetMap)"
+			},
+			"km-KH":{
+				"name":"ផែនទីសណ្ឋានដី",
+				"description":"ផែនទីសណ្ឋានដីឥតគិតថ្លៃដោយមានម្លប់លើភ្នំនិងខ្សែវណ្ឌវង្កដែលផ្អែកលើ OpenStreetMap (អូម) ។ វាមានផ្លូវសម្រាប់ការឡើងភ្នំជិះកង់ជិះកង់លើភ្នំជម្រាលជិះស្គីនិងបង្ហាញពីអាកាសធាតុបច្ចុប្បន្ន (ពពកនិងភ្លៀង) ។",
+				"subtitle": "ផែនទីសណ្ឋានដី (OpenStreetMap)"
+			},
+			"lo-LA":{
+				"name":"ແຜນທີ່ພູມສັນຖານ",
+				"description":"ແຜນທີ່ພູມສັນຖານທີ່ບໍ່ເສຍຄ່າກັບເສັ້ນຮົ່ມພູແລະເສັ້ນທາງອ້ອມໂດຍອີງໃສ່ OpenStreetMap (osm). ມັນມີເສັ້ນທາງ ສຳ ລັບການຍ່າງປ່າ, ຂີ່ລົດຖີບ, ຂີ່ລົດຖີບພູເຂົາ, ເປີ້ນພູສະກີແລະສະແດງອາກາດໃນປະຈຸບັນ (ຟັງແລະຝົນ).",
+				"subtitle": "ແຜນທີ່ພູມສັນຖານ (OpenStreetMap)"
+			},
 			"fr-FR":{
 				"name":"Carte Topo",
 				"description":"Carte Topo est une carte topographique avec ombrage de collines et courbes de niveau basée sur OpenStreetMap (osm). Il propose des itinéraires pour la randonnée, le vélo, le VTT et indique la météo (nuages et pluie).",
