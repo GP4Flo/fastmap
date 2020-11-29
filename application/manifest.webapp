@@ -245,10 +245,50 @@
 				"description":"Бесплатная топографическая карта с штриховкой холмов и контурными линиями на основе OpenStreetMap (osm). На нем есть маршруты для пеших прогулок, езды на велосипеде, катания на горных велосипедах, горнолыжные склоны и показана текущая погода (облака и дождь).",
 				"subtitle": "Топографическая карта (OpenStreetMap)"
 			},
-			"ru-RU":{
-				"name":"Топографическая карта",
-				"description":"Бесплатная топографическая карта с штриховкой холмов и контурными линиями на основе OpenStreetMap (osm). На нем есть маршруты для пеших прогулок, езды на велосипеде, катания на горных велосипедах, горнолыжные склоны и показана текущая погода (облака и дождь).",
-				"subtitle": "Топографическая карта (OpenStreetMap)"
+			"si-LK":{
+				"name":"භූලක්ෂණාත්මක සිතියම",
+				"description":"OpenStreetMap (osm) මත පදනම්ව කඳුකර සෙවන සහ සමෝච්ඡ රේඛා සහිත නිදහස් භූලක්ෂණාත්මක සිතියම. එය කඳු නැගීම, බයිසිකල් පැදීම, මවුන්ටන් පාපැදි, ස්කීං බෑවුම් සඳහා වන අතර වර්තමාන කාලගුණය (වලාකුළු සහ වැසි) පෙන්වයි.",
+				"subtitle": "භූලක්ෂණාත්මක සිතියම (OpenStreetMap)"
+			},
+			"sk-SK":{
+				"name":"Topo Karta",
+				"description":"Brezplačna topografska karta s senčenjem hribov in konturnimi črtami na osnovi OpenStreetMap (osm). Na njej najdete poti za pohodništvo, kolesarjenje, gorsko kolesarjenje, smučišča in prikazuje trenutno vreme (oblaki in dež).",
+				"subtitle": "Topografska karta (OpenStreetMap)"
+			},
+			"sl-SI":{
+				"name":"Topo Karta",
+				"description":"Brezplačna topografska karta s senčenjem hribov in konturnimi črtami na osnovi OpenStreetMap (osm). Na njej najdete poti za pohodništvo, kolesarjenje, gorsko kolesarjenje, smučišča in prikazuje trenutno vreme (oblaki in dež).",
+				"subtitle": "Topografska karta (OpenStreetMap)"
+			},
+			"sq-AL":{
+				"name":"Harta Topo",
+				"description":"Harta topografike falas me hijëzimin e kodrës dhe linjat e konturit bazuar në OpenStreetMap (osm). Ajo përmban rrugë për shëtitje, çiklizëm, biçikletë në mal, shpatet e skive dhe tregon motin aktual (retë dhe shiun).",
+				"subtitle": "Harta topografike (OpenStreetMap)"
+			},
+			"sr-Latn-CS":{
+				"name":"Топографска карта",
+				"description":"Бесплатна топографска карта са сенчењем брда и контурним линијама заснована на ОпенСтреетМап (осм). Садржи руте за планинарење, бициклизам, брдски бициклизам, скијашке стазе и приказује тренутно време (облаке и кишу).",
+				"subtitle": "Топографска карта (ОпенСтреетМап)"
+			},
+			"sv-SE":{
+				"name":"Topo Karta",
+				"description":"Gratis topografisk karta med kullskuggning och konturlinjer baserat på OpenStreetMap (osm). Den har vägar för vandring, cykling, mountainbike, skidbackar och visar nuvarande väder (moln och regn).",
+				"subtitle": "Topografisk karta (ОпенСтреетМап)"
+			},
+			"sw-ZA":{
+				"name":"Ramani ya eneo",
+				"description":"Ramani ya bure ya hali ya juu na shading ya kilima na mistari ya contour kulingana na OpenStreetMap (osm). Inaangazia njia za kupanda, baiskeli, baiskeli za milimani, mteremko wa skiing na inaonyesha hali ya hewa ya sasa (mawingu na mvua).",
+				"subtitle": "Ramani ya eneo (OpenStreetMap)"
+			},
+			"ta-IN":{
+				"name":"இடவியல் வரைபடம்",
+				"description":"ஓபன்ஸ்ட்ரீட்மேப் (osm) அடிப்படையிலான மலை நிழல் மற்றும் விளிம்பு கோடுகளுடன் இலவச இடவியல் வரைபடம். இது ஹைகிங், சைக்கிள் ஓட்டுதல், மவுண்டன் பைக்கிங், பனிச்சறுக்கு சரிவுகளுக்கான வழிகளைக் கொண்டுள்ளது மற்றும் தற்போதைய வானிலை (மேகங்கள் மற்றும் மழை) காட்டுகிறது.",
+				"subtitle": "இடவியல் வரைபடம் (ஓபன்ஸ்ட்ரீட்மேப்)"
+			},
+			"ta-IN":{
+				"name":"இடவியல் வரைபடம்",
+				"description":"ஓபன்ஸ்ட்ரீட்மேப் (osm) அடிப்படையிலான மலை நிழல் மற்றும் விளிம்பு கோடுகளுடன் இலவச இடவியல் வரைபடம். இது ஹைகிங், சைக்கிள் ஓட்டுதல், மவுண்டன் பைக்கிங், பனிச்சறுக்கு சரிவுகளுக்கான வழிகளைக் கொண்டுள்ளது மற்றும் தற்போதைய வானிலை (மேகங்கள் மற்றும் மழை) காட்டுகிறது.",
+				"subtitle": "இடவியல் வரைபடம் (ஓபன்ஸ்ட்ரீட்மேப்)"
 			},
 			"en-US":{
 				"name":"Topo Map",
