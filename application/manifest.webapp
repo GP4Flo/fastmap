@@ -33,7 +33,7 @@
 			"ar-SA":{
 				"name":"خريطة طبوغرافية",
 				"description":"Topo Map هي خريطة طبوغرافية مع تظليل التل وخطوط الكنتور على أساس OpenStreetMap (osm). ويتميز بمسارات للمشي لمسافات طويلة وركوب الدراجات وركوب الدراجات في الجبال ومنحدرات التزلج ويظهر الطقس (السحب والأمطار).",
-				"subtitle": "الخريطة الطبوغرافية (OpenStreetMap)"
+				"subtitle": "(OpenStreetMap) خريطة طبوغرافية"
 			},
 			"az-Latn-AZ":{
 				"name":"Topo xəritə",
@@ -223,7 +223,7 @@
 			"ps-AF":{
 				"name":"توپوګرافیک نقشه",
 				"description":"د آزاد سټریټ میپ (اوسم) پر بنسټ د غونډۍ سیوري کولو او سمدستي لینونو سره وړیا توپوګرافیک نقشه. دا د پیدل کیدو ، بایسکل چلولو ، د غرنۍ بایسکل چلولو ، د سکیینګ غرونو لپاره لارې ټاکي او اوسني هوا (بادل او باران) ښیې.",
-				"subtitle": "توپوګرافیک نقشه (اوپن سټریټ میپ)"
+				"subtitle": "توپوګرافیک نقشه اوپنسټریټ میپ"
 			},
 			"pt-BR":{
 				"name":"Mapa Topo",
@@ -303,7 +303,12 @@
 			"ur-PK":{
 				"name":"ٹپوگرافک نقشہ",
 				"description":"اوپن اسٹریٹ میپ (او ایس ایم) پر مبنی پہاڑی کی شیڈنگ اور سموچ لائنوں والا مفت ٹپوگرافک نقشہ۔ اس میں پیدل سفر ، سائیکلنگ ، ماؤنٹین بائیکنگ ، اسکیئنگ ڈھلانوں اور موجودہ موسم (بادل اور بارش) کو ظاہر کرنے کے راستے شامل ہیں۔",
-				"subtitle": "ٹپوگرافک نقشہ (اوپن اسٹریٹ میپ)"
+				"subtitle": "ٹپوگرافک نقشہ اوپن اسٹریٹ میپ"
+			},
+			"uz-Cyrl-UZ":{
+				"name":"Topo xarita",
+				"description":"OpenStreetMap (osm) asosida tepalik soyalari va kontur chiziqlari bilan bepul topografik xarita. Unda piyoda yurish, velosiped haydash, tog 'velosipedlari, chang'i chang'i bag'irlari uchun marshrutlar mavjud va hozirgi ob-havo (bulutlar va yomg'ir) ko'rsatilgan.",
+				"subtitle": "Topografik xarita (OpenStreetMap)"
 			},
 			"en-US":{
 				"name":"Topo Map",
