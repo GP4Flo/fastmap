@@ -421,9 +421,14 @@
 				"subtitle": "ਟੌਪੋਗ੍ਰਾਫਿਕ ਨਕਸ਼ਾ (ਓਪਨਸਟ੍ਰੀਟਮੈਪ)"
 			},
 			"te-IN":{
-				"name":"Topo Map",
-				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
-				"subtitle": "Topographic map (OpenStreetMap)"
+				"name":"టోపోగ్రాఫిక్ మ్యాప్",
+				"description":"ఓపెన్ స్ట్రీట్ మ్యాప్ (ఓస్మ్) ఆధారంగా హిల్ షేడింగ్ మరియు కాంటూర్ లైన్లతో ఉచిత టోపోగ్రాఫిక్ మ్యాప్. ఇది హైకింగ్, సైక్లింగ్, మౌంటెన్ బైకింగ్, స్కీయింగ్ వాలుల మార్గాలను కలిగి ఉంది మరియు ప్రస్తుత వాతావరణాన్ని (మేఘాలు మరియు వర్షం) చూపిస్తుంది.",
+				"subtitle": "టోపోగ్రాఫిక్ మ్యాప్ (ఓపెన్ స్ట్రీట్ మ్యాప్)"
+			},
+			"ko-KR":{
+				"name":"టోపోగ్రాఫిక్ మ్యాప్",
+				"description":"ఓపెన్ స్ట్రీట్ మ్యాప్ (ఓస్మ్) ఆధారంగా హిల్ షేడింగ్ మరియు కాంటూర్ లైన్లతో ఉచిత టోపోగ్రాఫిక్ మ్యాప్. ఇది హైకింగ్, సైక్లింగ్, మౌంటెన్ బైకింగ్, స్కీయింగ్ వాలుల మార్గాలను కలిగి ఉంది మరియు ప్రస్తుత వాతావరణాన్ని (మేఘాలు మరియు వర్షం) చూపిస్తుంది.",
+				"subtitle": "టోపోగ్రాఫిక్ మ్యాప్ (ఓపెన్ స్ట్రీట్ మ్యాప్)"
 			},
 			"en-US":{
 				"name":"Topo Map",
