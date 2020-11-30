@@ -310,6 +310,41 @@
 				"description":"OpenStreetMap (osm) asosida tepalik soyalari va kontur chiziqlari bilan bepul topografik xarita. Unda piyoda yurish, velosiped haydash, tog 'velosipedlari, chang'i chang'i bag'irlari uchun marshrutlar mavjud va hozirgi ob-havo (bulutlar va yomg'ir) ko'rsatilgan.",
 				"subtitle": "Topografik xarita (OpenStreetMap)"
 			},
+			"vi-VN":{
+				"name":"Bản đồ địa hình",
+				"description":"Bản đồ địa hình miễn phí với bóng đổ đồi và đường đồng mức dựa trên OpenStreetMap (osm). Nó có các tuyến đường đi bộ đường dài, đi xe đạp, đạp xe leo núi, trượt tuyết và hiển thị thời tiết hiện tại (mây và mưa).",
+				"subtitle": "Bản đồ địa hình (OpenStreetMap)"
+			},
+			"xh-ZA":{
+				"name":"Topo Kaart",
+				"description":"Topo Map is 'n gratis topografiese kaart met heuwelskadu en kontoerlyne gebaseer op OpenStreetMap (osm). Dit bied roetes vir stap, fietsry, bergfietsry, ski-hange en toon die huidige weer (wolke en reën).",
+				"subtitle": "Topografiese Kaart (OpenStreetMap)"
+			},
+			"zh-CN":{
+				"name":"地形图",
+				"description":"基于OpenStreetMap（osm）的带有丘陵阴影和轮廓线的免费地形图。 它具有远足，骑自行车，山地自行车，滑雪场的路线，并显示当前的天气（多云和下雨）。",
+				"subtitle": "地形图（OpenStreetMap"
+			},
+			"zh-HK":{
+				"name":"地形图",
+				"description":"基于OpenStreetMap（osm）的带有丘陵阴影和轮廓线的免费地形图。 它具有远足，骑自行车，山地自行车，滑雪场的路线，并显示当前的天气（多云和下雨）。",
+				"subtitle": "地形图（OpenStreetMap"
+			},
+			"zh-TW":{
+				"name":"地形图",
+				"description":"基于OpenStreetMap（osm）的带有丘陵阴影和轮廓线的免费地形图。 它具有远足，骑自行车，山地自行车，滑雪场的路线，并显示当前的天气（多云和下雨）。",
+				"subtitle": "地形图（OpenStreetMap"
+			},
+			"zu-ZA":{
+				"name":"Imephu yesimo sendawo",
+				"description":"Imephu yamahhala yesimo sendawo esinokufiphazwa kwamagquma nolayini wentaba okususelwa ku-OpenStreetMap (osm). Iqukethe imizila yokuhamba izintaba, ukuhamba ngebhayisikili, ukuhamba ngebhayisikili ezintabeni, imithambeka yokushushuluza futhi kukhombisa isimo sezulu samanje (amafu nemvula).",
+				"subtitle": "Imephu yesimo sendawo (OpenStreetMap)"
+			},
+			"as-IN":{
+				"name":"টোগোগ্রাফিক মানচিত্র",
+				"description":"ওপেনস্ট্রিটম্যাপ (ওএসএম) এর ভিত্তিতে হিল শেডিং এবং কনট্যুর লাইনের সাথে নিখরচায় টপোগ্রাফিক মানচিত্র। এটি হাইকিং, সাইক্লিং, পর্বত বাইক, স্কিইং slালু এবং বর্তমান আবহাওয়া (মেঘ এবং বৃষ্টি) এর জন্য রুটগুলি বৈশিষ্ট্যযুক্ত করে।",
+				"subtitle": "টোগোগ্রাফিক মানচিত্র (ওপেন স্ট্রিটম্যাপ)"
+			},
 			"en-US":{
 				"name":"Topo Map",
 				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
