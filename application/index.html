@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <title>Topo Map</title>
-    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'; script-src * 'unsafe-inline' 'unsafe-eval'; connect-src * 'unsafe-inline'; img-src * data: blob: 'unsafe-inline'; frame-src *; style-src * 'unsafe-inline';">
+<html lang="en">
+  <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Topo Map</title>
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="assets/css/grid.css" />
     <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
-    <link rel="stylesheet" href="assets/css/search.css" />
 </head>
 
 <body class="width-100 height-100">
@@ -17,7 +17,11 @@
         <div>
             D-Pad: Move the map</br>
             Left/Right keys: Zoom out/in</br>
-            1 - 6: Change map layout</br>
+            1 - 3: Change map layout</br>
+            4 - 9: Show routes (Hiking, Cycling, MTB, Skiing Slopes, Horse Riding, Skating)</br>
+            *: Show clouds | #: Show rain</br>
+            0: Hide routes/weather</br></br>
+            <div id='ad-container'></div>
         </div>
     </div>
 
@@ -38,13 +42,12 @@
 
     <div id='map-container'></div>
 
-    <script defer src="assets/js/jQuery-3.1.0.js"></script>
     <script defer src="assets/leaflet/leaflet.js"></script>
     <script defer src="assets/leaflet/leaflet.tilelayer.fallback.js"></script>
+    <script defer src="assets/js/jQuery-3.1.0.js"></script>
     <script defer src="assets/js/jquery.autocomplete.min.js"></script>
+    <script defer src="assets/js/kaiads.v4.min.js"></script>
     <script defer src="app.js"></script>
-    <script defer src="assets/js/helper.js"></script>
-    <script defer src="assets/js/search.js"></script>
 
 </body>
 </html>

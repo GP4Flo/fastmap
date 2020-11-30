@@ -12,7 +12,6 @@
 	        "56": "/icons/icon-56-56.png",
 	        "112": "/icons/icon-112-112.png"
 	    },
-
 	    "developer": {
 	        "name": "Florian Jesse",
 	        "url": "https://github.com/GP4Flo/Topo-Map"
@@ -21,8 +20,8 @@
 	        "geolocation": {
 	            "description": "Required to show your location on the map."
 				},
-		"mobiledata":{},
-		"wifidata":{}
+			"mobiledata":{},
+			"wifidata":{}
 	    },
 		"locales":{
 			"af-ZA":{
