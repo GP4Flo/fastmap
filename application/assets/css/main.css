@@ -15,7 +15,6 @@ body,html{
 div#toast{
     position:fixed;
     height:auto;
-    overflow:none;
     top:-100px;
     background:#000;
     color:#fff;
@@ -69,8 +68,93 @@ div#bottom-bar div#button-right{
 }
 div#about{
     display:none;
-    padding:1px
+    padding:1px;
+    font-size:13px
 }
-a:focus{
-    color:red
+.text-center{
+    text-align:center
+}
+.flex{
+    display:-webkit-flex;
+    display:flex;
+    -webkit-flex-direction:row;
+    flex-direction:row;
+    -webkit-flex-wrap:wrap;
+    flex-wrap:wrap
+}
+.align-item-center{
+    -webkit-align-items:center;
+    -ms-flex-align:center;
+    align-items:center
+}
+.justify-content-spacebetween{
+    -webkit-justify-content:space-between;
+    justify-content:space-between
+}
+.justify-content-center{
+    -webkit-justify-content:center;
+    -ms-flex-pack:center;
+    justify-content:center
+}
+.width-100{
+    min-width:100vw;
+    max-width:100vw
+}
+.height-100{
+    min-height:100vh
+}
+.width-50{
+    min-width:50%
+}
+.width-30{
+    min-width:30%;
+    max-width:30%
+}
+.center{
+    transform:translate(50%,0)
+}
+/*https://www.devbridge.com/sourcery/components/jquery-autocomplete/ */
+div#search-box {
+    background: #cccccc;
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    position: fixed;
+    z-index: 2000;
+    height: 35px;
+    display: none;
+}
+div#search-box input {
+    width: 98%;
+    display: block;
+    height: 24px;
+    padding: 3px;
+}
+.autocomplete-suggestions {
+    border: 0px solid #999;
+    background: white;
+    overflow: auto;
+    margin: 0px 0 0 0;
+}
+div.autocomplete-suggestion {
+    padding: 0px 0px;
+    margin: 0 0 0px 0;
+    white-space: nowrap;
+    overflow: hidden;
+    background: white;
+}
+.autocomplete-selected {
+    background: silver!Important;
+}
+.autocomplete-suggestions strong {
+    font-weight: normal;
+    color: red;
+}
+.autocomplete-group {
+    padding: 2px 5px;
+    background: black 
+}
+.autocomplete-group strong {
+    display: block;
+    border-bottom: 1px solid #000;
 }
