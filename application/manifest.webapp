@@ -410,6 +410,21 @@
 				"description":"ओपनस्ट्रिटमॅप (ओएसएम) वर आधारित हिल शेडिंग आणि समोच्च रेषांसह विनामूल्य टोपोग्राफिक नकाशा. यात हायकिंग, सायकलिंग, माउंटन बाइकिंग, स्कीइंग उतार आणि सध्याचे हवामान (ढग आणि पाऊस) दर्शविणारे मार्ग समाविष्ट आहेत.",
 				"subtitle": "टोपोग्राफिक नकाशा (ओपनस्ट्रिटमॅप)"
 			},
+			"or-IN":{
+				"name":"ଟପୋଗ୍ରାଫିକ୍ ମାନଚିତ୍ର",
+				"description":"OpenStreetMap (osm) ଉପରେ ଆଧାରିତ ପାହାଡ଼ ଛାୟା ଏବଂ କଣ୍ଟୋର ଲାଇନ୍ ସହିତ ମାଗଣା ଟପୋଗ୍ରାଫିକ୍ ମାନଚିତ୍ର | ଏଥିରେ ପଦଯାତ୍ରା, ସାଇକେଲ ଚଲାଇବା, ମାଉଣ୍ଟେନ୍ ବାଇକ୍ ଚଳାଇବା, ସ୍କାଏକିଂ opes ୁଲା ଏବଂ ବର୍ତ୍ତମାନର ପାଣିପାଗ (ମେଘ ଏବଂ ବର୍ଷା) ପାଇଁ ମାର୍ଗ ରହିଛି |",
+				"subtitle": "ଟପୋଗ୍ରାଫିକ୍ ମାନଚିତ୍ର (OpenStreetMap)"
+			},
+			"pa-IN":{
+				"name":"ਟੌਪੋਗ੍ਰਾਫਿਕ ਨਕਸ਼ਾ",
+				"description":"ਓਪਨਸਟ੍ਰੀਟਮੈਪ (ਓਐਸਐਮ) ਦੇ ਅਧਾਰ ਤੇ ਹਿਲ ਸ਼ੇਡਿੰਗ ਅਤੇ ਸਮਾਲਟ ਲਾਈਨਾਂ ਵਾਲਾ ਮੁਫਤ ਟੌਪੋਗ੍ਰਾਫਿਕ ਨਕਸ਼ਾ. ਇਸ ਵਿੱਚ ਹਾਈਕਿੰਗ, ਸਾਈਕਲਿੰਗ, ਮਾਉਂਟੇਨ ਬਾਈਕਿੰਗ, ਸਕੀਇੰਗ opਲਾਣ ਅਤੇ ਮੌਜੂਦਾ ਮੌਸਮ (ਬੱਦਲਾਂ ਅਤੇ ਮੀਂਹ) ਨੂੰ ਦਰਸਾਉਣ ਦੇ ਰਸਤੇ ਹਨ.",
+				"subtitle": "ਟੌਪੋਗ੍ਰਾਫਿਕ ਨਕਸ਼ਾ (ਓਪਨਸਟ੍ਰੀਟਮੈਪ)"
+			},
+			"te-IN":{
+				"name":"Topo Map",
+				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
+				"subtitle": "Topographic map (OpenStreetMap)"
+			},
 			"en-US":{
 				"name":"Topo Map",
 				"description":"Free topographic map with hill shading and contour lines based on OpenStreetMap (osm). It features routes for hiking, cycling, mountain biking, skiing slopes and shows the current weather (clouds and rain).",
