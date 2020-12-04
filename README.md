@@ -26,10 +26,10 @@ Fast Map is a free map for KaiOS devices optimized for mobile connections and sm
 + 0: Hide railway/weather layer</br></br>
 
 ### Screenshots
-![1.png]
-![2.png]
-![3.png]
-![4.png]
+![1](/1.png)
+![2](/2.png)
+![3](/3.png)
+![4](/4.png)
 
 ### How to install
 Automatic installation: Go to KaiOS store and search for Fast Map.
