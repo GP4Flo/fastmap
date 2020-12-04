@@ -6,7 +6,7 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Topo Map</title>
+    <title>Fast Map</title>
     <link rel="stylesheet" href="assets/css/main.css" />
     <link rel="stylesheet" href="assets/leaflet/leaflet.css" />
 </head>
@@ -17,10 +17,11 @@
         <div>
             D-Pad: Move the map</br>
             Left/Right keys: Zoom out/in</br>
-            1 - 3: Change map layout</br>
-            4 - 9: Show routes (Hiking, Cycling, MTB, Skiing Slopes, Horse Riding, Skating)</br>
+            1-3: Change map style (1 basic/fastest,</br>2 more details, 3 most details/slowest)</br>
+            4: Show railway lines</br>
             *: Show clouds | #: Show rain</br>
-            0: Hide routes/weather
+            0: Hide railway/weather layer</br></br>
+            <div id='ad-container'></div>
         </div>
     </div>
 
@@ -45,6 +46,7 @@
     <script defer src="assets/leaflet/leaflet.tilelayer.fallback.js"></script>
     <script defer src="assets/js/jQuery-3.1.0.js"></script>
     <script defer src="assets/js/jquery.autocomplete.min.js"></script>
+    <script defer src="assets/js/kaiads.v4.min.js"></script>
     <script defer src="app.js"></script>
 
 </body>
