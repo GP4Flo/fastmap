@@ -1,40 +1,36 @@
 ![logo](application/icons/icon-112-112.png) 
 
-Version 1.0.4 by Florian Jesse</br></br>
-Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, SRTM</br>Imagery © <a href="https://opentopomap.org/">OpenTopoMap</a> <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC-BY-SA)</a></br></br>
+Version 1.0.0 by Florian Jesse</br></br>
+Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</br></br>
 
-Topo Map is an OpenStreetMap app for KaiOS devices. It's a fork of osm-map with the aim of better usability and smaller filesize.  It uses OpenTopoMap with hill shading and contour lines. This app is a good companion for your outdoor activities like hiking, cycling, mountain biking, horseback riding, etc.
+Fast Map is a free map for KaiOS devices optimized for mobile connections and small data usage. You can choose different detail levels and show overlays for weather (rain and clouds) and public transport (railway, tram and subway lines).
 
 ### Features
-+ Topographic map with contour lines and hillshading
++ Fast loading map with small filesize
 + Search locations
 + Show weather (clouds and rain)
 + Tile layer fallback (useful for slow mobile connections)
 
 ### Maps
-+ OpenTopoMap
-+ HikeBike map
-+ Satellite view (Esri World View)
-+ Six different route layers (hiking, biking, cycling, horse riding, skiing, inline-skating)
++ Mobile Atlas
++ Atlas
++ OSM Humanitarian
++ Openrailwaymap (overlay)
++ Openweathermap (rain and clouds overlays)
 
 ### Manual
-+ D-Pad: Move the map
-+ Left/Right keys: Zoom out/in
-+ 1 - 3: Change map layout
-+ 4 - 9: Show routes (Hiking, Cycling, MTB, Skiing Slopes, Horse Riding, Skating)
-+ ```*```: Show clouds | #: Show rain
-+ 0: Hide routes/weather
++ D-Pad: Move the map</br>
++ Left/Right keys: Zoom out/in</br>
++ 1-3: Change map style (1 basic/fastest,</br>2 more details, 3 most details/slowest)</br>
++ 4: Show railway lines</br>
++ *: Show clouds | #: Show rain</br>
++ 0: Hide railway/weather layer</br></br>
 
 ### Screenshots
-![topo1](/topo1.png)
-![topo2](/topo2.png)
-![topo3](/topo3.png)
-![topo4](/topo4.png)
-![topo5](/topo5.png)
-![topo6](/topo6.png)
-![topo7](/topo7.png)
-![topo8](/topo8.png)
-![topo9](/topo9.png)
+![1.png]
+![2.png]
+![3.png]
+![4.png]
 
 ### How to install
 Automatic installation: Go to KaiOS store and search for Topo.
@@ -45,18 +41,16 @@ See the following page for more details:
 https://developer.kaiostech.com/getting-started/env-setup/os-env-setup
 
 ### Thank you
-+ strukturart https://github.com/strukturart/osm-map
-+ Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, SRTM</br>
-+ Topo Map Imagery © <a href="https://opentopomap.org/">OpenTopoMap</a> <a href="https://creativecommons.org/licenses/by-sa/3.0/">(CC-BY-SA)</a></br>
-+ HikeBike Map Imagery © <a href="http://hikebikemap.org/">Colin Marquardt</a></br>
-+ Hillshading Imagery © <a href="http://www2.jpl.nasa.gov/srtm/">SRTM3 v2</a></br>
-+ Esri World Imagery © <a href="http://www.arcgis.com/home/item.html?id=10df2279f9684e4a9f6a7f08febac2a9">Esri</a></br>
-+ Routes overlays © <a href="http://waymarkedtrails.org/">Waymarked Trails</a></br>
++ Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors</br>
++ Mobile Atlas and Atlas tiles style © <a href="https://www.thunderforest.com/">Thunderforest</a></br>
++ HOT OSM tiles style © <a href="https://www.hotosm.org/">Humanitarian OpenStreetMap Team</a> hosted by <a href="https://www.openstreetmap.fr/">OpenStreetMap France</a></br>
++ Railway style: <a href="https://creativecommons.org/licenses/by-sa/2.0">CC-BY-SA 2.0</a> <a href="https://openrailwaymap.org/">OpenRailwayMap</a></br>
 + Weather overlays © <a href="https://openweathermap.org/">OpenWeather</a></br></br>
++ App Icon by <a href="https://commons.wikimedia.org/w/index.php?curid=22534462">Loginname</a> is licensed with <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a></br></br>
 
 ### LICENSES
 
-This software (except KaiAds) is open source and licensed under the <a href="LICENSE.txt">MIT License</a>. <a href="https://github.com/GP4Flo/Topo-Map">View the source code</a>. It's a fork of <a href="https://github.com/strukturart/osm-map">osm-map</a> by strukturart.</br></br>
+This software (except KaiAds) is open source and licensed under the <a href="LICENSE.txt">MIT License</a>. <a href="https://github.com/GP4Flo/fastmap">View the source code</a>. It's a fork of <a href="https://github.com/strukturart/osm-map">osm-map</a> by strukturart.</br></br>
 OpenStreetMap is a trademark of the <a href="https://wiki.osmfoundation.org/wiki/Main_Page">OpenStreetMap Foundation</a>. Topo Map is not endorsed by or affiliated with the OpenStreetMap Foundation.</br></br>
 <b>Licenses</b></br></br>
 <a href="https://github.com/strukturart/osm-map">osm-map</a> - <a href="osm-map LICENSE.txt">MIT License</a></br>
