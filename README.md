@@ -11,8 +11,8 @@ Fast Map is a free map for KaiOS devices optimized for mobile connections and sm
 + Tile layer fallback (useful for slow mobile connections)
 
 ### Maps
-+ Mobile Atlas
-+ Atlas
++ Mobile Atlas (Thunderforest)
++ Atlas (Thunderforest)
 + OSM Humanitarian
 + Openrailwaymap (overlay)
 + Openweathermap (rain and clouds overlays)
