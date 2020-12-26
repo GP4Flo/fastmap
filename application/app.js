@@ -46,7 +46,7 @@ $(document).ready(function() {
         //get location
         getLocation("init");
         ///set default map
-        mobileatlas_map();
+        osm_map();
         windowOpen = "map";
     }, 0);
 
@@ -67,15 +67,6 @@ $(document).ready(function() {
         tilesLayer = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 22,
             attribution: 'Map data © OpenStreetMap contributors, Mobile Atlas tiles style © Thunderforest'
-        });
-        map.addLayer(tilesLayer);
-    }
-    
-    function atlas_map() {
-        tilesUrl = 'https://{s}.tile.thunderforest.com/atlas/{z}/{x}/{y}.png32?apikey=5bd2317851a14fcaa3f0986eb79b8725'
-        tilesLayer = L.tileLayer.fallback(tilesUrl, {
-            maxZoom: 22,
-            attribution: 'Map data © OpenStreetMap contributors, Atlas tiles style © Thunderforest'
         });
         map.addLayer(tilesLayer);
     }
@@ -412,23 +403,16 @@ $(document).ready(function() {
                 if (overlayon) {
                     map.removeLayer(overlay)
                 }
-                mobileatlas_map();
+                osm_map();
                 break;
             case '2':
                 map.removeLayer(tilesLayer)
                 if (overlayon) {
                     map.removeLayer(overlay)
                 }
-                atlas_map();
+                mobileatlas_map();
                 break;
             case '3':
-                map.removeLayer(tilesLayer)
-                if (overlayon) {
-                    map.removeLayer(overlay)
-                }
-                osm_map();
-                break;
-            case '4':
                 if (overlayon) {
                     map.removeLayer(overlay)
                 }
