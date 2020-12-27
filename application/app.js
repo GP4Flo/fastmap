@@ -188,12 +188,14 @@ $(document).ready(function() {
         $('div#search-box').find("input").blur();
         $('div#about').css('display', 'block');
         $("div#bottom-bar").css("display", "block");
+	$("div#map").css("display", "none");
         windowOpen = "about";
         nav(1);
     }
     function hideAbout() {
         $("div#bottom-bar").css("display", "none");
         $('div#about').css('display', 'none');
+	$("div#map").css("display", "block");
         document.activeElement.blur();
         windowOpen = "map";
     }
@@ -328,39 +330,6 @@ $(document).ready(function() {
         }
 
     }
-
-    //////////////////////////////
-    ////MOZ ACTIVITY////////////
-    //////////////////////////////
-
-
-
-    navigator.mozSetMessageHandler('activity', function(activityRequest) {
-        var option = activityRequest.source;
-        //gpx
-        if (option.name == 'open') {
-            loadGPX(option.data.url)
-        }
-        //link
-        if (option.name == 'view') {
-            open_url = true;
-            const url_split = option.data.url.split("/");
-            current_lat = url_split[url_split.length - 2];
-            current_lng = url_split[url_split.length - 1];
-
-            //remove !numbers
-            current_lat = current_lat.replace(/[A-Za-z?=&]+/gi, "");
-            current_lng = current_lng.replace(/[A-Za-z?=&]+/gi, "");
-            current_lat = Number(current_lat);
-            current_lng = Number(current_lng);
-
-            myMarker = L.marker([current_lat, current_lng]).addTo(map);
-            map.setView([current_lat, current_lng], 13);
-            zoom_speed();
-
-        }
-
-    })
 
 
     //////////////////////////////
@@ -604,7 +573,6 @@ $(document).ready(function() {
         },
         onSelect: function(suggestion) {
             let lat_lon = [suggestion.data_lat, suggestion.data_lon];
-            addMarker(lat_lon[0], lat_lon[1])
         }
     })
 
