@@ -23,6 +23,8 @@ let marker_latlng = false;
 
 $(document).ready(function() {
 
+navigator.serviceWorker.register('sw.js');
+	
     //KaiAds
     getKaiAd({
     publisher: '6c03d2e1-0833-4731-aac0-801acfc4eb6e',
