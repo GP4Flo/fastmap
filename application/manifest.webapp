@@ -1,7 +1,7 @@
 	{
 	    "version": "1.0.1",
 	    "name": "Fast Map",
-		"subtitle": "Free map optimized for mobile connections",
+		"subtitle": "Free map optimized for mobile connections",
 	    "description": "Fast Map is a free map optimized for mobile connections and small data usage. You can choose different detail levels and show overlays for weather (rain and clouds) and public transport (railway, tram and subway lines).",
 	    "launch_path": "/index.html",
 	    "type": "web",
@@ -27,7 +27,7 @@
 				"en-US":{
 				"name":"Fast Map",
 				"description":"Fast Map is a free map optimized for mobile connections and small data usage. You can choose different detail levels and show overlays for weather (rain and clouds) and public transport (railway, tram and subway lines).",
-				"subtitle": "Free map optimized for mobile connections"
+				"subtitle": "Free map optimized for mobile connections"
 			}
 		},
 		"default_locale": "en-US"
