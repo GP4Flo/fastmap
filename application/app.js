@@ -572,10 +572,17 @@ $(document).ready(function() {
             toaster(JSON.stringify(jqXHR), 2000)
         },
         onSelect: function(suggestion) {
-        let lat_lon = [suggestion.data_lat, suggestion.data_lon];
-	map.setView([lat, lng], 17);
-        current_lat = Number(lat);
-        current_lng = Number(lng);
+            L.marker([lat, lng]).remove(map);
+		let lat_lon = [suggestion.data_lat, suggestion.data_lon];
+            addMarker(lat_lon[0], lat_lon[1])
         }
     })
+
+    //add marker
+    function addMarker(lat, lng) {
+        L.marker([lat, lng]).addTo(map);
+        map.setView([lat, lng], 14);
+        current_lat = Number(lat);
+        current_lng = Number(lng);
+    }
 });
