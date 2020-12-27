@@ -574,16 +574,10 @@ navigator.serviceWorker.register('sw.js');
             toaster(JSON.stringify(jqXHR), 2000)
         },
         onSelect: function(suggestion) {
-            let lat_lon = [suggestion.data_lat, suggestion.data_lon];
-        }
-    })
-
-    //add marker
-    function addMarker(lat, lng) {
-        L.marker([lat, lng]).addTo(map);
-        map.setView([lat, lng], 14);
+        let lat_lon = [suggestion.data_lat, suggestion.data_lon];
+	map.setView([lat, lng], 14);
         current_lat = Number(lat);
         current_lng = Number(lng);
-    }
-
+        }
+    })
 });
