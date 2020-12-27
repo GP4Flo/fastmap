@@ -74,7 +74,7 @@ navigator.serviceWorker.register('assets/js/sw.js');
     }
     
     function osm_map() {
-        tilesUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png '
+        tilesUrl = 'https://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png '
         tilesLayer = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 20,
             attribution: 'Map data © OpenStreetMap contributors, HOT tiles style © Humanitarian OpenStreetMap Team hosted by OpenStreetMap France'
@@ -94,7 +94,7 @@ navigator.serviceWorker.register('assets/js/sw.js');
     }
 
     function rain() {
-        tilesUrl = 'http://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=99d2594c090c1ee9a8ad525fd7a83f85'
+        tilesUrl = 'https://tile.openweathermap.org/map/precipitation_new/{z}/{x}/{y}.png?appid=99d2594c090c1ee9a8ad525fd7a83f85'
         overlay = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 19,
             attribution: 'Rain © OpenWeather'
@@ -104,7 +104,7 @@ navigator.serviceWorker.register('assets/js/sw.js');
     }
 
     function clouds() {
-        tilesUrl = 'http://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=99d2594c090c1ee9a8ad525fd7a83f85'
+        tilesUrl = 'https://tile.openweathermap.org/map/clouds_new/{z}/{x}/{y}.png?appid=99d2594c090c1ee9a8ad525fd7a83f85'
         overlay = L.tileLayer.fallback(tilesUrl, {
             maxZoom: 19,
             attribution: 'Clouds © OpenWeather'
