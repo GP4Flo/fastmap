@@ -22,8 +22,6 @@ let map;
 let marker_latlng = false;
 
 $(document).ready(function() {
-
-navigator.serviceWorker.register('sw.js');
 	
     //KaiAds
     getKaiAd({
@@ -575,7 +573,7 @@ navigator.serviceWorker.register('sw.js');
         },
         onSelect: function(suggestion) {
         let lat_lon = [suggestion.data_lat, suggestion.data_lon];
-	map.setView([lat, lng], 14);
+	map.setView([lat, lng], 17);
         current_lat = Number(lat);
         current_lng = Number(lng);
         }
