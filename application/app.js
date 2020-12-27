@@ -6,8 +6,8 @@ let current_lat = 0;
 let current_alt;
 let current_heading;
 
-let zoom_level = 14;
-let current_zoom_level = 14;
+let zoom_level = 17;
+let current_zoom_level = 17;
 let myMarker = "";
 let windowOpen = "map";
 
@@ -148,7 +148,7 @@ navigator.serviceWorker.register('assets/js/sw.js');
             current_heading = crd.heading;
             if (option == "init") {
                 myMarker = L.marker([current_lat, current_lng]).addTo(map);
-                map.flyTo(new L.LatLng(current_lat, current_lng), 14, {animate: false});
+                map.flyTo(new L.LatLng(current_lat, current_lng), 17, {animate: false});
                 zoom_speed();
                 return false;
             }
