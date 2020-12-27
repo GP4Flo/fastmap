@@ -580,7 +580,7 @@ $(document).ready(function() {
     //add marker
     function addMarker(lat, lng) {
 	myMarker.setLatLng([lat, lng]).update();
-        map.setView([lat, lng], 14);
+        map.setView([lat, lng], 17);
         current_lat = Number(lat);
         current_lng = Number(lng);
     }
