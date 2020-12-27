@@ -188,14 +188,14 @@ $(document).ready(function() {
         $('div#search-box').find("input").blur();
         $('div#about').css('display', 'block');
         $("div#bottom-bar").css("display", "block");
-	$("div#map").css("display", "none");
+	$("div#map-container").css("display", "none");
         windowOpen = "about";
         nav(1);
     }
     function hideAbout() {
         $("div#bottom-bar").css("display", "none");
         $('div#about').css('display', 'none');
-	$("div#map").css("display", "block");
+	$("div#map-container").css("display", "block");
         document.activeElement.blur();
         windowOpen = "map";
     }
