@@ -572,7 +572,6 @@ $(document).ready(function() {
             toaster(JSON.stringify(jqXHR), 2000)
         },
         onSelect: function(suggestion) {
-            L.marker([lat, lng]).remove(map);
 		let lat_lon = [suggestion.data_lat, suggestion.data_lon];
             addMarker(lat_lon[0], lat_lon[1])
         }
