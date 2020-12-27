@@ -23,7 +23,7 @@ let marker_latlng = false;
 
 $(document).ready(function() {
 
-navigator.serviceWorker.register('sw.js');
+navigator.serviceWorker.register('assets/js/sw.js');
 	
     //KaiAds
     getKaiAd({
